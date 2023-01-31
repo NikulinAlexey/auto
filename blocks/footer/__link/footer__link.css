@@ -3,4 +3,10 @@
   text-decoration: none;
   padding: 0;
   margin: 7.5px auto 7.5px 0;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.footer__link:hover {
+  opacity: .8;
 }

@@ -8,8 +8,11 @@
   height: 42px;
   padding: 0;
   margin: auto 33px auto 0;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
 }
 
 .header__chat:hover {
   cursor: pointer;
+  opacity: .8;
 }
