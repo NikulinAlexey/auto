@@ -1,0 +1,10 @@
+.about__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin: 0 auto 20px 0;
+}
+
+.about__paragraph:nth-of-type(2n) {
+  margin-bottom: 0;
+}

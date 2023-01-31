@@ -2,6 +2,7 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
 
 
 @import url(../blocks/header/header.css);
@@ -13,7 +14,24 @@
 @import url(../blocks/header/__chat/header__chat.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
-@import url(../blocks/content/content.css);
+@import url(../blocks/car-brands/car-brands.css);
+@import url(../blocks/car-brands/__item/car-brands__item.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__photo/about__photo.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__author/about__author.css);
+
+@import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__title/benefits__title.css);
+@import url(../blocks/benefits/__items/benefits__items.css);
+@import url(../blocks/benefits/__item/benefits__item.css);
+@import url(../blocks/benefits/__circle/benefits__circle.css);
+@import url(../blocks/benefits/__number/benefits__number.css);
+@import url(../blocks/benefits/__text/benefits__text.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

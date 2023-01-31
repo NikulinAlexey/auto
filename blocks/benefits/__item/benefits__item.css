@@ -1,0 +1,15 @@
+.benefits__item {
+  position: relative;
+  background-color: #283035;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.04);
+  display: flex;
+}
+
+.benefits__item:first-of-type {
+  border-radius: 20px 20px 20px 200px;
+}
+
+.benefits__item:last-of-type {
+  border-radius: 20px 20px 200px 20px;
+}

@@ -1,0 +1,12 @@
+.benefits__circle {
+  position: absolute;
+  top: -40px;
+  left: calc((100% - 80px)/2);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #C72931;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
