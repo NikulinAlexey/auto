@@ -1,0 +1,15 @@
+.header__chat {
+  background-image: url(../../../images/header-chat.svg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  border: none;
+  background-color: transparent;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  margin: auto 33px auto 0;
+}
+
+.header__chat:hover {
+  cursor: pointer;
+}
