@@ -1,0 +1,20 @@
+.galery__button {
+  position: absolute;
+  bottom: 70px;
+  left: 120px;
+  background-color: #C72931;
+  width: 300px;
+  height: 62px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.galery__button:hover {
+  opacity: .8;
+}
