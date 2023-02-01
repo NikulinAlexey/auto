@@ -1,0 +1,6 @@
+.services__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 0 auto 55px auto;
+}

@@ -17,6 +17,15 @@
 @import url(../blocks/car-brands/car-brands.css);
 @import url(../blocks/car-brands/__item/car-brands__item.css);
 
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__items/services__items.css);
+@import url(../blocks/services/__item/services__item.css);
+@import url(../blocks/services/__subtitle/services__subtitle.css);
+@import url(../blocks/services/__image-credit/services__image-credit.css);
+@import url(../blocks/services/__image-leasing/services__image-leasing.css);
+@import url(../blocks/services/__image-service/services__image-service.css);
+
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__photo/about__photo.css);
 @import url(../blocks/about/__text/about__text.css);
