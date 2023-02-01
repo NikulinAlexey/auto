@@ -1,0 +1,18 @@
+.reviews__button-right {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  background-image: url(../../../images/reviews-right-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: calc((100% - 80px)/2);
+  right: 80px;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.reviews__button-right:hover {
+  opacity: .8;
+}

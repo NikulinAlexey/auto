@@ -1,0 +1,10 @@
+.feedback-form__link {
+  color: #C72931;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.feedback-form__link:hover {
+  opacity: .8;
+}
