@@ -16,6 +16,11 @@
 
 @import url(../blocks/car-brands/car-brands.css);
 @import url(../blocks/car-brands/__item/car-brands__item.css);
+@import url(../blocks/car-brands/__border/car-brands__border.css);
+@import url(../blocks/car-brands/__image/car-brands__image.css);
+@import url(../blocks/car-brands/__title/car-brands__title.css);
+@import url(../blocks/car-brands/__button/car-brands__button.css);
+@import url(../blocks/car-brands/__items/car-brands__items.css);
 
 @import url(../blocks/filter/filter.css);
 

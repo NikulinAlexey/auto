@@ -1,0 +1,8 @@
+.car-brands__border {
+  border: 1px solid #4D4D4D;
+  border-radius: 10px;
+  height: 110px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}

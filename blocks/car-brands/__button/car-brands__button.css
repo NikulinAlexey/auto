@@ -1,0 +1,19 @@
+.car-brands__button {
+  width: 232px;
+  height: 56px;
+  background-image: url(../../../images/car-brands-down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #C72931;
+  background-size: 14px;
+  border: none;
+  border-radius: 14px;
+  opacity: 1;
+  transition: all .3s ease-in-out;
+  margin: 40px auto 0 auto;
+}
+
+.car-brands__button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
