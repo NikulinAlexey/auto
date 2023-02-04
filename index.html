@@ -34,7 +34,6 @@
     </header>
 
     <main class="content">
-
       <section class="сar-brands">
         <div class="car-brands__items">
           <div class="car-brands__item">
@@ -244,7 +243,7 @@
         <form action="submit" class="filter__form">
           <div class="filter__select-block">
             <div class="filter__selects">
-              <select name="">
+              <select name="" class="filter__select">
                 <option>Любая</option>
                 <option>Chery</option>
                 <option>Exeed</option>
@@ -280,56 +279,95 @@
                 <option>BMW</option>
                 <option>Land Rover</option>
               </select>
-              <select>
+              <select class="filter__select">
                 <option>Модель 1</option>
                 <option>Модель 2</option>
               </select>
             </div>
-            <div class="filter__radio-emgine">
-              <h3 class="filter__engine">Двигатель</h3>
-              <div class="filter__engine-radio">
-                <label for="">
-                  <input type="radio">
-                  <span class="input__radio"></span>
-                  <span class="filter__text-label">Бензин</span>
-                </label>
-                <label for="">
-                  <input type="radio">
-                  <span class="input__radio"></span>
-                  <span class="filter__text-label">Гибрид</span>
-                </label>
-                <label for="">
-                  <input type="radio">
-                  <span class="input__radio"></span>
-                  <span class="filter__text-label">Дизель</span>
-                </label>
-                <label for="">
-                  <input type="radio">
-                  <span class="input__radio"></span>
-                  <span class="filter__text-label">Электрический</span>
-                </label>
+            <div class="filter__radio">
+              <div class="filter__radio-engine">
+                <h3 class="filter__subtitle">Двигатель</h3>
+                <div class="filter__engine-radio">
+                  <label for="" class="filter__label-radio">
+                    <input type="radio">
+                    <span class="input__radio"></span>
+                    <span class="filter__text-label">Бензин</span>
+                  </label>
+                  <label for="" class="filter__label-radio">
+                    <input type="radio">
+                    <span class="input__radio"></span>
+                    <span class="filter__text-label">Гибрид</span>
+                  </label>
+                  <label for="" class="filter__label-radio">
+                    <input type="radio" >
+                    <span class="input__radio"></span>
+                    <span class="filter__text-label">Дизель</span>
+                  </label>
+                  <label for="" class="filter__label-radio">
+                    <input type="radio">
+                    <span class="input__radio"></span>
+                    <span class="filter__text-label">Электрический</span>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div class="filter__radio-wd">
-              <h3 class="filter__engine">Привод</h3>
-              <div class="filter__engine-radio">
-                <label for="">
-                  <input type="radio">
-                  <span class="input__radio"></span>
-                  <span class="filter__text-label">4WD</span>
-                </label>
-                <label for="">
-                  <input type="radio">
-                  <span class="input__radio"></span>
-                  <span class="filter__text-label">2WD</span>
-                </label>
+              <div class="filter__radio-wd">
+                <h3 class="filter__subtitle">Привод</h3>
+                <div class="filter__wd-radio">
+                  <label for="" class="filter__label-radio">
+                    <input type="radio">
+                    <span class="input__radio"></span>
+                    <span class="filter__text-label">4WD</span>
+                  </label>
+                  <label for="" class="filter__label-radio">
+                    <input type="radio">
+                    <span class="input__radio"></span>
+                    <span class="filter__text-label">2WD</span>
+                  </label>
+                </div>
               </div>
             </div>
           </div>
           <div class="filter__button-block">
-            <div class="filter__specificity"></div>
-            <input type="range">
-            <button class="filter__button"></button>
+            <div class="filter__specificity">
+              <label for="new-auto" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="new-auto"
+                id="new-auto"
+                name="new-auto">
+                <span class="filter__pseudo-checkbox">Новые авто</span>
+              </label>
+              <label for="used-cars" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="used-cars"
+                id="used-cars"
+                name="used-cars">
+                <span class="filter__pseudo-checkbox">С пробегом</span>
+              </label>
+              <label for="commercial-auto" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="commercial-auto"
+                id="commercial-auto"
+                name="commercial-auto">
+                <span class="filter__pseudo-checkbox">Коммерческие</span>
+              </label>
+              <label for="special-auto" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="special-auto"
+                id="special-auto"
+                name="special-auto">
+                <span class="filter__pseudo-checkbox">Спецтехника</span>
+              </label>
+            </div>
+            <div class="filter__range-labels">
+              <p class="filter__range-label">от 100 000 ₽</p>
+              <p class="filter__range-label">до 1 000 000 ₽</p>
+            </div>
+            <input
+            type="range"
+            min="100000"
+            max="1000000"
+            class="filter__range">
+            <button class="filter__button">Подобрать автомобиль</button>
           </div>
         </form>
       </section>
@@ -349,18 +387,24 @@
       <section class="services">
         <h2 class="services__title">Услуги</h2>
         <div class="services__items">
-          <div class="services__item">
-            <h3 class="services__subtitle">Кредит</h3>
-            <img src="./images/sevices-image-one.svg" alt="" class="services__image-credit">
-          </div>
-          <div class="services__item">
-            <h3 class="services__subtitle">Лизинг</h3>
-            <img src="./images/sevices-image-two.svg" alt="" class="services__image-leasing">
-          </div>
-          <div class="services__item">
-            <h3 class="services__subtitle">Сервис</h3>
-            <img src="./images/sevices-image-three.svg" alt="" class="services__image-service">
-          </div>
+          <a href="#" class="services__link">
+            <div class="services__item">
+              <h3 class="services__subtitle">Кредит</h3>
+              <img src="./images/sevices-image-one.svg" alt="" class="services__image-credit">
+            </div>
+          </a>
+          <a href="#" class="services__link">
+            <div class="services__item">
+              <h3 class="services__subtitle">Лизинг</h3>
+              <img src="./images/sevices-image-two.svg" alt="" class="services__image-leasing">
+            </div>
+          </a>
+          <a href="#" class="services__link">
+            <div class="services__item">
+              <h3 class="services__subtitle">Сервис</h3>
+              <img src="./images/sevices-image-three.svg" alt="" class="services__image-service">
+            </div>
+          </a>
         </div>
       </section>
 
@@ -428,8 +472,18 @@
             <label for="checkbox" class="feedback-form__label">Я согласен с условиями <a href="#" class="feedback-form__link">обработки персональных данных *</a></label>
         </div>
         <form action="submit" class="feedback-form__form">
-          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваше имя*">
-          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваш номер телефона*">
+          <input 
+          type="text" 
+          class="feedback-form__input" 
+          name="" 
+          id="" 
+          placeholder="Ваше имя*">
+          <input 
+          type="text"
+          class="feedback-form__input"
+          name=""
+          id=""
+          placeholder="Ваш номер телефона*">
           <button class="feedback-form__button">Отправить</button>
         </form>
       </section>
@@ -455,7 +509,6 @@
           </div>
         </div>
       </section>
-
     </main>
 
     <footer class="footer">

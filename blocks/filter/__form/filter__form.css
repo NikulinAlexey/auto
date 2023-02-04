@@ -1,0 +1,6 @@
+.filter__form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin: 0 102px 0 102px;
+}

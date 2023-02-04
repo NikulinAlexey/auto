@@ -1,0 +1,6 @@
+.filter__specificity {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 62px);
+  gap: 10px;
+}

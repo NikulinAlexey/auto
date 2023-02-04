@@ -1,0 +1,11 @@
+.services__link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+
+.services__link:hover {
+  opacity: .8;
+  cursor: pointer;
+}

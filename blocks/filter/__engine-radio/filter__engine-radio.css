@@ -1,0 +1,7 @@
+.filter__engine-radio {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 31px;
+  row-gap: 18px;
+}

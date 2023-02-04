@@ -1,0 +1,27 @@
+.filter__pseudo-checkbox {
+   display: inline-block; /* элемент span теперь сможет принимать определённую ширину и высоту */
+  vertical-align: middle; /* элемент и текст будут правильно выровнены по вертикали. Работает в паре с inline-block */
+  width: 133px;
+  height: 62px;
+  border: 1px solid #4D4D4D; /* граница */
+  border-radius: 20px;
+  background-color: #283035;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.filter__checkbox-extra:checked + .filter__pseudo-checkbox {
+  border: 1px solid #C72931;
+  border-radius: 20px;
+}
+
+.filter__pseudo-checkbox:hover {
+  cursor: pointer;
+}

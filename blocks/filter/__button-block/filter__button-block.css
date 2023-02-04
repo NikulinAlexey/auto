@@ -1,0 +1,4 @@
+.filter__button-block {
+  display: flex;
+  flex-direction: column;
+}
