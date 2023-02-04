@@ -128,3 +128,17 @@
 @import url(../blocks/footer/__auto/footer__auto.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__link/footer__link.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__main/navigation__main.css);
+@import url(../blocks/navigation/__circle/navigation__circle.css);
+@import url(../blocks/navigation/__service/navigation__service.css);
+@import url(../blocks/navigation/__main-link/navigation__main-link.css);
+
+@import url(../blocks/service/service.css);
+@import url(../blocks/service/__title/service__title.css);
+@import url(../blocks/service/__form/service__form.css);
+@import url(../blocks/service/__subtitle/service__subtitle.css);
+@import url(../blocks/service/__fieldset/service__fieldset.css);
+@import url(../blocks/service/__select/service__select.css);
+@import url(../blocks/service/__button/service__button.css);

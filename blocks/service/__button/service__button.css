@@ -1,0 +1,16 @@
+.service__button {
+  border-radius: 14px;
+  background-color: #C72931;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.service__button:hover {
+  opacity: .8;
+  cursor: pointer;
+}

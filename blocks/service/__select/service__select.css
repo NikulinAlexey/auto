@@ -1,0 +1,15 @@
+.service__select {
+  background-color: #303A40;
+  border-radius: 14px;
+  border: 1px solid #4D4D4D;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.service__select:hover {
+  cursor: pointer;
+}

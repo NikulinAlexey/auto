@@ -1,0 +1,12 @@
+.navigation__circle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #C72931;
+  opacity: 0.6;
+  margin: auto 8px;
+}
+
+.navigation__circle:hover {
+  cursor: pointer;
+}
