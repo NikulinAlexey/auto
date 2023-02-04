@@ -4,4 +4,7 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 31px;
   row-gap: 18px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
 }

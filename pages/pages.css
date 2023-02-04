@@ -46,6 +46,7 @@
 @import url(../blocks/filter/__label-radio/filter__label-radio.css);
 @import url(../blocks/filter/__checkbox/filter__chekbox.css);
 @import url(../blocks/filter/__pseudo-checkbox/filter__pseudo-checkbox.css);
+@import url(../blocks/filter/__pseudo-radio/filter__pseudo-radio.css);
 @import url(../blocks/filter/__label-checkbox/filter__label-checkbox.css);
 
 @import url(../blocks/galery/galery.css);
