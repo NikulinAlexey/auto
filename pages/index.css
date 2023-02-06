@@ -184,6 +184,19 @@
 @import url(../blocks/about-company/__block-active/about-company__block-active.css);
 @import url(../blocks/about-company/__block-closed/about-company__block-closed.css);
 
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__block/contacts__block.css);
+@import url(../blocks/contacts/__info/contacts__info.css);
+@import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
+@import url(../blocks/contacts/__item/contacts__item.css);
+@import url(../blocks/contacts/__icon/contacts__icon.css);
+@import url(../blocks/contacts/__item-info/contacts__item-info.css);
+@import url(../blocks/contacts/__info-title/contacts__info-title.css);
+@import url(../blocks/contacts/__info-subtitle/contacts__info-subtitle.css);
+@import url(../blocks/contacts/__map/contacts__map.css);
+@import url(../blocks/contacts/__button/contacts__button.css);
+
 @import url(../blocks/activities/activities.css);
 @import url(../blocks/activities/__title/activities__title.css);
 @import url(../blocks/activities/__list/activities__list.css);
