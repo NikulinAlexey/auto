@@ -8,4 +8,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+
+.credit__button:hover {
+  cursor: pointer;
+  opacity: .8;
 }
