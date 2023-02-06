@@ -1,0 +1,10 @@
+.about-company__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin: 0 240px 10px 0;
+}
+
+.about-company__paragraph:last-of-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,5 @@
+.about-company__subtitles {
+  display: flex;
+  border-bottom: 2px solid #4D4D4D;
+  margin: 0 auto 20px 0;
+}
