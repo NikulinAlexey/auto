@@ -1,0 +1,10 @@
+.calculation__paragraph {
+  margin: 30px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.calculation__paragraph:nth-of-type(2n) {
+  margin-bottom: 0;
+}

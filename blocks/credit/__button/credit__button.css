@@ -1,0 +1,11 @@
+.credit__button {
+  width: 100%;
+  background-color: #C72931;
+  border-radius: 14px;
+  height: 56px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}

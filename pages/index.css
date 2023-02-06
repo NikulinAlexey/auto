@@ -142,3 +142,26 @@
 @import url(../blocks/service/__fieldset/service__fieldset.css);
 @import url(../blocks/service/__select/service__select.css);
 @import url(../blocks/service/__button/service__button.css);
+
+@import url(../blocks/credit/credit.css);
+@import url(../blocks/credit/__blocks/credit__blocks.css);
+@import url(../blocks/credit/__auto-choose/credit__auto-choose.css);
+@import url(../blocks/credit/__title/credit__title.css);
+@import url(../blocks/credit/__selects/credit__selects.css);
+@import url(../blocks/credit/__subtitle/credit__subtitle.css);
+@import url(../blocks/credit/__range-lable/credit__range-lable.css);
+@import url(../blocks/credit/__down-labels/credit__down-labels.css);
+@import url(../blocks/credit/__upper-lable/credit__upper-lable.css);
+@import url(../blocks/credit/__select/credit__select.css);
+@import url(../blocks/credit/__form/credit__form.css);
+@import url(../blocks/credit/__input/credit__input.css);
+@import url(../blocks/credit/__button/credit__button.css);
+@import url(../blocks/credit/__contacts/credit__contacts.css);
+@import url(../blocks/credit/__range/credit__range.css);
+@import url(../blocks/credit/__link/credit__link.css);
+@import url(../blocks/credit/__paragraph/credit__paragraph.css);
+
+@import url(../blocks/calculation/calculation.css);
+@import url(../blocks/calculation/__title/calculation__title.css);
+@import url(../blocks/calculation/__paragraph/calculation__paragraph.css);
+@import url(../blocks/calculation/__list/calculation__list.css);

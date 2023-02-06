@@ -1,0 +1,6 @@
+.credit__blocks {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 88px;
+  margin: 0 207px;
+}

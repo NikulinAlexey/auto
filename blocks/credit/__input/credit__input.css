@@ -1,0 +1,14 @@
+.credit__input {
+  background-color: #303A40;
+  border-radius: 14px;
+  border: 1px solid #4D4D4D;
+  height: 62px;
+  width: 100%;
+  margin: 0 auto 30px auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.credit__input:nth-of-type(2n) {
+  margin-bottom: 0;
+}
