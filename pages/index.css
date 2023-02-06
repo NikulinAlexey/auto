@@ -23,6 +23,7 @@
 @import url(../blocks/car-brands/__button/car-brands__button.css);
 @import url(../blocks/car-brands/__items/car-brands__items.css);
 @import url(../blocks/car-brands/__main-title/car-brands__main-title.css);
+@import url(../blocks/car-brands/__link/car-brands__link.css);
 
 @import url(../blocks/filter/filter.css);
 @import url(../blocks/filter/__radio-engine/filter__radio-engine.css);
