@@ -8,4 +8,11 @@
   font-size: 16px;
   line-height: 140%;
   height: 56px;
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+
+.contacts__button:hover {
+  opacity: .8;
+  cursor: pointer;
 }
