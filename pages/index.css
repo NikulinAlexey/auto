@@ -161,6 +161,16 @@
 @import url(../blocks/credit/__link/credit__link.css);
 @import url(../blocks/credit/__paragraph/credit__paragraph.css);
 
+@import url(../blocks/leasing/leasing.css);
+@import url(../blocks/leasing/__title/leasing__title.css);
+@import url(../blocks/leasing/__paragraph/leasing__paragraph.css);
+@import url(../blocks/leasing/__list/leasing__list.css);
+@import url(../blocks/leasing/__list-item/leasing__list-item.css);
+@import url(../blocks/leasing/__buttons/leasing__buttons.css);
+@import url(../blocks/leasing/__button/leasing__button.css);
+@import url(../blocks/leasing/__banks/leasing__banks.css);
+@import url(../blocks/leasing/__bank/leasing__bank.css);
+
 @import url(../blocks/calculation/calculation.css);
 @import url(../blocks/calculation/__title/calculation__title.css);
 @import url(../blocks/calculation/__paragraph/calculation__paragraph.css);

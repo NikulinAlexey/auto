@@ -1,0 +1,10 @@
+.leasing__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin: 0 100px 20px 80px;
+}
+
+.leasing__paragraph:last-of-type {
+  margin-bottom: 0;
+}

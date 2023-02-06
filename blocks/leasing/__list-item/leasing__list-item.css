@@ -1,0 +1,7 @@
+.leasing__list-item {
+  margin-bottom: 10px;
+}
+
+.leasing__list-item:last-of-type {
+  margin-bottom: 0;
+}

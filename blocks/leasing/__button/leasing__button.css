@@ -1,0 +1,24 @@
+.leasing__button {
+  height: 54px;
+  width: 290px;
+  margin: 0 40px 0 0;
+  padding: 0;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  border-radius: 12px;
+  background-color: #C72931;
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+
+.leasing__button:last-of-type {
+  margin-right: 0;
+}
+
+.leasing__button:hover {
+  cursor: pointer;
+  opacity: .8;
+}

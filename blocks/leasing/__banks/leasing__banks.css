@@ -1,0 +1,7 @@
+.leasing__banks {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(1, minmax(min-content , max-content));
+  gap: 60px;
+}
