@@ -1,0 +1,7 @@
+.model__form {
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, 415px) 1fr;
+  grid-template-rows: minmax(min-content, max-content);
+  gap: 82px;
+  margin: 20px 83px 50px 83px;
+}

@@ -50,6 +50,7 @@
 @import url(../blocks/filter/__pseudo-checkbox/filter__pseudo-checkbox.css);
 @import url(../blocks/filter/__pseudo-radio/filter__pseudo-radio.css);
 @import url(../blocks/filter/__label-checkbox/filter__label-checkbox.css);
+@import url(../blocks/filter/__pseudo-label/filter__pseudo-label.css);
 
 @import url(../blocks/galery/galery.css);
 @import url(../blocks/galery/__photo/galery__photo.css);
@@ -208,3 +209,15 @@
 @import url(../blocks/calculation/__title/calculation__title.css);
 @import url(../blocks/calculation/__paragraph/calculation__paragraph.css);
 @import url(../blocks/calculation/__list/calculation__list.css);
+
+@import url(../blocks/model/model.css);
+@import url(../blocks/model/__image/model__image.css);
+@import url(../blocks/model/__form/model__form.css);
+@import url(../blocks/model/__filter/model__filter.css);
+@import url(../blocks/model/__filter-title/model__filter-title.css);
+@import url(../blocks/model/__select/model__select.css);
+@import url(../blocks/model/__radio/model__radio.css);
+@import url(../blocks/model/__button/model__button.css);
+@import url(../blocks/model/__name/model__name.css);
+@import url(../blocks/model/__mask/model__mask.css);
+@import url(../blocks/model/__image-block/model__image-block.css);

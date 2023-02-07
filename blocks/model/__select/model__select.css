@@ -1,0 +1,8 @@
+.model__select {
+  width: 100%;
+  height: 62px;
+  background-color: #303A40;
+  color: #fff;
+  border-radius: 14px;
+  border: 1px solid #4D4D4D;
+}

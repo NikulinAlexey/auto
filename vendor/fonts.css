@@ -28,3 +28,11 @@
   font-weight: 700;
   src: url(./Caveat-Regular.woff) format("woff");
 }
+
+@font-face {
+  font-family: 'Khand';
+  font-style:  normal;
+  font-weight: 700;
+  src: url(./Khand-SemiBold.woff2) format("woff2"),
+       url(./Khand-SemiBold.woff) format("woff");
+}

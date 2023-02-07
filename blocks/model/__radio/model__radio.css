@@ -1,0 +1,5 @@
+.model__radio {
+  margin: auto 0 21px 0;
+  display: flex;
+  justify-content: space-between;
+}

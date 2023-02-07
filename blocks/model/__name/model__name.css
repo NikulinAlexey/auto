@@ -1,0 +1,9 @@
+.model__name {
+  font-family: 'Khand';
+  margin: auto;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 140%;
+  opacity: .7;
+  color: #C72931;
+}

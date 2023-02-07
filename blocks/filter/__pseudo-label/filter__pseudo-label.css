@@ -1,0 +1,8 @@
+.filter__pseudo-label {
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+
+.filter__pseudo-label:hover {
+  opacity: .8;
+}
