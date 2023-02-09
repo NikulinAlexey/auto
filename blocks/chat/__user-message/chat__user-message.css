@@ -1,0 +1,5 @@
+.chat__user-message {
+  display: flex;
+  justify-content: end;
+  margin: 0 0 22px 0;
+}

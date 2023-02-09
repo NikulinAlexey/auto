@@ -1,0 +1,4 @@
+.card__price {
+  display: flex;
+  margin: 0 auto 20px 0;
+}

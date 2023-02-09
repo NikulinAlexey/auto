@@ -1,0 +1,10 @@
+.results__select {
+  border: 1px solid #4D4D4D;
+  border-radius: 10px;
+  background-color: #354249;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 10px 20px;
+}

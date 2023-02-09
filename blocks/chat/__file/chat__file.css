@@ -1,0 +1,6 @@
+.chat__file {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/chat-send-icon.svg);
+  margin: auto 0 auto 10px;
+}

@@ -1,0 +1,17 @@
+.card__request {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  border-bottom: 2px dotted #C72931;
+  text-decoration: none;
+  color: #fff;
+  display: inline;
+  margin: 0 auto;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.card__request:hover {
+  opacity: .8;
+  cursor: pointer;
+}

@@ -133,7 +133,6 @@
 @import url(../blocks/footer/__link/footer__link.css);
 
 @import url(../blocks/navigation/navigation.css);
-@import url(../blocks/navigation/__main/navigation__main.css);
 @import url(../blocks/navigation/__circle/navigation__circle.css);
 @import url(../blocks/navigation/__service/navigation__service.css);
 @import url(../blocks/navigation/__main-link/navigation__main-link.css);
@@ -221,3 +220,59 @@
 @import url(../blocks/model/__name/model__name.css);
 @import url(../blocks/model/__mask/model__mask.css);
 @import url(../blocks/model/__image-block/model__image-block.css);
+
+@import url(../blocks/results/results.css);
+@import url(../blocks/results/__title-block/results__title-block.css);
+@import url(../blocks/results/__title/results__title.css);
+@import url(../blocks/results/__title-accent/results__title-accent.css);
+@import url(../blocks/results/__select/results__select.css);
+@import url(../blocks/results/__buttons/results__buttons.css);
+@import url(../blocks/results/__button/results__button.css);
+@import url(../blocks/results/__button/_type/results__button_type_active.css);
+@import url(../blocks/results/__next-button/results__next-button.css);
+@import url(../blocks/results/__dots/results__dots.css);
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__like-icon/card__like-icon.css);
+@import url(../blocks/card/__state/card__state.css);
+@import url(../blocks/card/__image-block/card__image-block.css);
+@import url(../blocks/card/__current-list/card__current-list.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__price/card__price.css);
+@import url(../blocks/card/__current-price/card__current-price.css);
+@import url(../blocks/card/__old-price/card__old-price.css);
+@import url(../blocks/card/__details/card__details.css);
+@import url(../blocks/card/__request/card__request.css);
+@import url(../blocks/card/__text-block/card__text-block.css);
+@import url(../blocks/card/__current-item/card__current-item.css);
+@import url(../blocks/card/__current-item/_type/card__current-item_type_active.css);
+@import url(../blocks/card/__mask/card__mask.css);
+@import url(../blocks/card/__state/_type/card__state_type_expect-delivery.css);
+@import url(../blocks/card/__state/_type/card__state_type_order.css);
+@import url(../blocks/card/__like-icon/_type/card__like-icon_type_active.css);
+
+@import url(../blocks/model-banner/model-banner.css);
+@import url(../blocks/model-banner/__image/model-banner__image.css);
+@import url(../blocks/model-banner/__mask/model-banner__mask.css);
+@import url(../blocks/model-banner/__name/model-banner__name.css);
+
+@import url(../blocks/chat/chat.css);
+@import url(../blocks/chat/__header-block/chat__header-block.css);
+@import url(../blocks/chat/__title/chat__title.css);
+@import url(../blocks/chat/__roll-icon/chat__roll-icon.css);
+@import url(../blocks/chat/__close-icon/chat__close-icon.css);
+@import url(../blocks/chat/__messages-block/chat__messages-block.css);
+@import url(../blocks/chat/__sup-message/chat__sup-message.css);
+@import url(../blocks/chat/__sup-icon/chat__sup-icon.css);
+@import url(../blocks/chat/__message/chat__message.css);
+@import url(../blocks/chat/__user-message/chat__user-message.css);
+@import url(../blocks/chat/__user-icon/chat__user-icon.css);
+@import url(../blocks/chat/__message-block/chat__message-block.css);
+@import url(../blocks/chat/__personal/chat__personal.css);
+@import url(../blocks/chat/__message-input/chat__message-input.css);
+@import url(../blocks/chat/__file/chat__file.css);
+@import url(../blocks/chat/__send-button/chat__send-button.css);

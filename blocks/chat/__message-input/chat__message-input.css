@@ -1,0 +1,15 @@
+.chat__message-input {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  margin: auto auto auto 10px;
+  height: 50%;
+  width: calc(100% - 88px);
+}
+
+.chat__message-input:focus {
+  border: none;
+}

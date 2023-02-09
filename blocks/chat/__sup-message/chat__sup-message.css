@@ -1,0 +1,5 @@
+.chat__sup-message {
+  display: flex;
+  justify-content: start;
+  margin: 0 0 22px 0
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <link rel="stylesheet" href="./index.css">
   <meta charset="UTF-8">
@@ -35,9 +35,7 @@
 
     <main class="content">
       <div class="navigation">
-        <a href="../index.html" class="navigation__main-link">
-          <h4 class="navigation__main">Главная</h4>
-        </a>
+        <a href="../index.html" class="navigation__main-link">Главная</a>
         <div class="navigation__circle"></div>
         <h4 class="navigation__service">Chery</h4>
       </div>
@@ -45,9 +43,9 @@
       <section class="model">
         <div class="model__image-block">
           <img src="../images/chery_model-image.jpg" alt="" class="model__image">
-        <div class="model__mask">
-          <h1 class="model__name">Chery</h1>
-        </div>
+          <div class="model__mask">
+            <h2 class="model__name">Chery</h2>
+          </div>
         </div>
         <form action="submit" class="model__form">
           <div class="model__filter">
@@ -59,31 +57,19 @@
           </div>
           <div class="model__radio">
             <label for="cash" class="filter__label-radio">
-              <input type="radio"
-                 name="payment"
-                 id="cash"
-                 class="filter__radio filter__radio-extra" 
-                 value="cash">
-               <span class="filter__pseudo-radio"></span>
-               <span class="filter__pseudo-label">За наличные</span>
+              <input type="radio" name="payment" id="cash" class="filter__radio filter__radio-extra" value="cash">
+              <span class="filter__pseudo-radio"></span>
+              <span class="filter__pseudo-label">За наличные</span>
             </label>
             <label for="order" class="filter__label-radio">
-              <input type="radio"
-                 name="payment"
-                 id="order"
-                 class="filter__radio filter__radio-extra" 
-                 value="order">
-               <span class="filter__pseudo-radio"></span>
-               <span class="filter__pseudo-label">Под заказ</span>
+              <input type="radio" name="payment" id="order" class="filter__radio filter__radio-extra" value="order">
+              <span class="filter__pseudo-radio"></span>
+              <span class="filter__pseudo-label">Под заказ</span>
             </label>
             <label for="credit" class="filter__label-radio">
-              <input type="radio"
-                 name="payment"
-                 id="credit"
-                 class="filter__radio filter__radio-extra" 
-                 value="credit">
-               <span class="filter__pseudo-radio"></span>
-               <span class="filter__pseudo-label">В кредит</span>
+              <input type="radio" name="payment" id="credit" class="filter__radio filter__radio-extra" value="credit">
+              <span class="filter__pseudo-radio"></span>
+              <span class="filter__pseudo-label">В кредит</span>
             </label>
           </div>
           <button class="model__button" type="submit">Получить предложение</button>
@@ -91,7 +77,195 @@
       </section>
 
       <section class="results">
-        
+        <div class="results__title-block">
+          <h1 class="results__title">Весь модельный ряд <span class="results__title-accent">Chery</span></h1>
+          <select name="" id="" class="results__select">
+            <option value="">По умолчанию</option>
+            <option value="">По умолчанию</option>
+          </select>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price"></div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state card__state_type_order">Под заказ</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state card__state_type_expect-delivery">Ожидается поставка</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price"></div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price"></div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price"></div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price"></div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="сar-brands">

@@ -1,0 +1,8 @@
+.chat__message-block {
+  height: 55px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  border-top: 1px solid #4D4D4D;
+  border-bottom: 1px solid #4D4D4D;
+}

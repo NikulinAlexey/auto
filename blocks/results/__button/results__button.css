@@ -1,0 +1,22 @@
+.results__button {
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  width: 43px;
+  height: 43px;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+.results__button:hover {
+  opacity: .8;
+  cursor: pointer;
+}

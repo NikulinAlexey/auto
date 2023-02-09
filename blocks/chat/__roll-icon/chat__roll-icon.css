@@ -1,0 +1,17 @@
+.chat__roll-icon {
+  background-image: url(../../../images/chat-roll-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  margin: 0 20px 0 0;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.chat__roll-icon:hover {
+  opacity: .8;
+  cursor: pointer;
+}

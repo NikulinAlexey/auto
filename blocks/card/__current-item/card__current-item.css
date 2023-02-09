@@ -1,0 +1,15 @@
+.card__current-item {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin-right: 2px;
+  border-radius: 4px;
+}
+
+.card__current-item:last-of-type {
+  margin-right: 0;
+}
+
+.card__current-item:hover {
+  cursor: pointer;
+}

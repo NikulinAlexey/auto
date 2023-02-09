@@ -1,0 +1,12 @@
+.chat__send-button {
+  background-image: url(../../../images/chat-send-icon.svg);
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  margin: auto 10px;
+}

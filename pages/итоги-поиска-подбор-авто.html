@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
+      <ul class="header__link-list">
+        <li>
+          <a href="#" class="header__link header__link_type_auto">Автомобили</a>
+        </li>
+        <li>
+          <a href="./services.html" class="header__link header__link_type_service">Сервис</a>
+        </li>
+        <li>
+          <a href="./contacts.html" class="header__link header__link_type_contacts">Контакты</a>
+        </li>
+        <li>
+          <a href="./about.html" class="header__link header__link_type_about">О компании</a>
+        </li>
+      </ul>
+      <div class="header__badges">
+        <button class="header__saved"></button>
+        <button class="header__chat"></button>
+        <div class="header__phone">+7(999)123-45-67</div>
+      </div>
+      
+    </header>
+
+    <main class="content">
+      <div class="navigation">
+        <a href="../index.html" class="navigation__main-link">Главная
+        </a>
+        <div class="navigation__circle"></div>
+        <h4 class="navigation__service">Подбор автомобиля</h4>
+      </div>
+
+      <section class="filter">
+        <h2 class="filter__title">Параметры автомобиля</h2>
+        <form action="submit" class="filter__form">
+          <div class="filter__select-block">
+            <div class="filter__selects">
+              <select name="" class="filter__select">
+                <option value="any">Любая</option>
+                <option value="chery">Chery</option>
+                <option value="exeed">Exeed</option>
+                <option value="geely">Geely</option>
+                <option value="changan">Changan</option>
+                <option value="haval">Haval</option>
+                <option value="gac">GAC</option>
+                <option value="tank">Tank</option>
+                <option value="lixiang">Lixiang</option>
+                <option value="hongqi">Hongqi FAW</option>
+                <option value="xpeng">Xpeng</option>
+                <option value="zeekr">Zeekr</option>
+                <option value="nio">NIO</option>
+                <option value="kia">Kia</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="audi">AUDI</option>
+                <option value="porshe">Porshe</option>
+                <option value="byd">BYD</option>
+                <option value="toyota">Toyota</option>
+                <option value="jetour">JETOUR</option>
+                <option value="voyah">Voyah</option>
+                <option value="mg-saic">MG SAIC</option>
+                <option value="evolute">Evolute</option>
+                <option value="ora">ORA</option>
+                <option value="hiphi">Hiphi</option>
+                <option value="riich">Riich</option>
+                <option value="neta">Neta</option>
+                <option value="roewe-saic">Roewe SAIC</option>
+                <option value="skoda">Skoda</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="ford">Ford</option>
+                <option value="mercedes-benz">Mercedes-Benz</option>
+                <option value="bmw">BMW</option>
+                <option value="land-rover">Land Rover</option>
+              </select>
+              <select class="filter__select">
+                <option>Модель 1</option>
+                <option>Модель 2</option>
+              </select>
+            </div>
+            <div class="filter__radio">
+              <div class="filter__radio-engine">
+                <h3 class="filter__subtitle">Двигатель</h3>
+                <div class="filter__engine-radio">
+                  <label for="petrol" class="filter__label-radio">
+                    <input type="radio"
+                       name="engine-type"
+                       id="petrol"
+                       class="filter__radio filter__radio-extra" 
+                       value="petrol">
+                     <span class="filter__pseudo-radio"></span>
+                     <span class="filter__pseudo-label">Бензин</span>
+                  </label>
+                  <label for="hybrid" class="filter__label-radio">
+                    <input type="radio"
+                       name="engine-type"
+                       id="hybrid"
+                       class="filter__radio filter__radio-extra" 
+                       value="hybrid">
+                     <span class="filter__pseudo-radio"></span>
+                     <span class="filter__pseudo-label">Гибрид</span>
+                  </label>
+                  <label for="engine" class="filter__label-radio">
+                    <input type="radio"
+                       name="engine-type"
+                       id="engine"
+                       class="filter__radio filter__radio-extra" 
+                       value="diesel">
+                     <span class="filter__pseudo-radio"></span>
+                     <span class="filter__pseudo-label">Дизель</span>
+                  </label>
+                  <label for="electric" class="filter__label-radio">
+                    <input type="radio"
+                       name="engine-type"
+                       id="electric"
+                       class="filter__radio filter__radio-extra" 
+                       value="electric">
+                     <span class="filter__pseudo-radio"></span>
+                     <span class="filter__pseudo-label">Электрический</span>
+                  </label>
+                </div>
+              </div>
+              <div class="filter__radio-wd">
+                <h3 class="filter__subtitle">Привод</h3>
+                <div class="filter__wd-radio">
+                  <label for="4WD" class="filter__label-radio">
+                    <input type="radio"
+                       name="WD-type"
+                       id="4WD"
+                       class="filter__radio filter__radio-extra" 
+                       value="4WD">
+                     <span class="filter__pseudo-radio"></span>
+                     <span class="filter__pseudo-label">4WD</span>
+                  </label>
+                  <label for="2WD" class="filter__label-radio">
+                    <input type="radio"
+                       name="WD-type"
+                       id="2WD"
+                       class="filter__radio filter__radio-extra" 
+                       value="2WD">
+                     <span class="filter__pseudo-radio"></span>
+                     <span class="filter__pseudo-label">2WD</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__button-block">
+            <div class="filter__specificity">
+              <label for="new-auto" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="new-auto"
+                id="new-auto"
+                name="new-auto">
+                <span class="filter__pseudo-checkbox">Новые авто</span>
+              </label>
+              <label for="used-cars" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="used-cars"
+                id="used-cars"
+                name="used-auto">
+                <span class="filter__pseudo-checkbox">С пробегом</span>
+              </label>
+              <label for="commercial-auto" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="commercial-auto"
+                id="commercial-auto"
+                name="commercial-auto">
+                <span class="filter__pseudo-checkbox">Коммерческие</span>
+              </label>
+              <label for="special-auto" class="filter__checkbox-label">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
+                value="special-auto"
+                id="special-auto"
+                name="special-auto">
+                <span class="filter__pseudo-checkbox">Спецтехника</span>
+              </label>
+            </div>
+            <div class="filter__range-labels">
+              <p class="filter__range-label">от 100 000 ₽</p>
+              <p class="filter__range-label">до 1 000 000 ₽</p>
+            </div>
+            <input
+            type="range"
+            min="100000"
+            max="1000000"
+            class="filter__range">
+            <button class="filter__button" type="submit">Подобрать автомобиль</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="results">
+        <div class="results__title-block">
+          <h1 class="results__title">Итоги поиска<span class="results__title-accent"></span></h1>
+          <select name="" id="" class="results__select">
+            <option value="">По умолчанию</option>
+            <option value="">По умолчанию</option>
+          </select>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state card__state_type_order">Под заказ</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state card__state_type_expect-delivery">Ожидается поставка</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state card__state_type_order">Под заказ</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state card__state_type_expect-delivery">Ожидается поставка</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item card__current-item_type_active"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="results__buttons">
+          <button class="results__button results__button_type_active">1</button>
+          <button class="results__button">2</button>
+          <div class="results__dots">...</div>
+          <button class="results__button">11</button>
+          <button class="results__button">12</button>
+          <button class="results__next-button"></button>
+        </div>
+      </section>
+
+      <section class="сar-brands">
+        <h1 class="car-brands__main-title">Автомобили в наличии</h1>
+        <div class="car-brands__items">
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/geely.svg" alt="Логотип Джили" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/exceed.svg" alt="Логотип Эксид" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/toyota.svg" alt="Логотип Тойота" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/kia.svg" alt="Логотип Киа" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/hyundai.svg" alt="Логотип Хёндай" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/shkoda.svg" alt="Логотип Шкода" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/volkswagen.svg" alt="Логотип Фольксваген" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/jetour.svg" alt="Логотип Жетур" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/chery.svg" alt="Логотип Чери" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/haval.svg" alt="Логотип Хавэйл" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/byd.svg" alt="Логотип Быд" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/changan.svg" alt="Логотип Чанган" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/roewe.svg" alt="Логотип Роу" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/gac-motor.svg" alt="Логотип Гэк Мотор" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/tank.svg" alt="Логотип Тэнк" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/li.svg" alt="Логотип Ли" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/hongqi.svg" alt="Логотип Хонгки" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/xpeng.svg" alt="Логотип Икспенг" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/zeekr.svg" alt="Логотип Зикер" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/nio.svg" alt="Логотип Нио" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/hiphi.svg" alt="Логотип Хифи" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/ora.svg" alt="Логотип Ора" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/mg.svg" alt="Логотип Эмджи" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/voyah.svg" alt="Логотип Войа" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/audi.svg" alt="Логотип Ауди" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/evolute.svg" alt="Логотип Эволют" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/r.svg" alt="Логотип Эр" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/neta.svg" alt="Логотип Нета" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/ford.svg" alt="Логотип Форд" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/porsche.svg" alt="Логотип Порше" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/land-rover.svg" alt="Логотип Лэнд-Ровер" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/bmw.svg" alt="Логотип БМВ" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+          <a href="#" class="car-brands__link">
+            <div class="car-brands__item">
+              <div class="car-brands__border">
+                <img src="../images/car-brands/mercedes-benz.svg" alt="Логотип Мерседес Бенц" class="car-brands__image">
+              </div>
+              <h2 class="car-brands__title">80 авто</h2>
+            </div>
+          </a>
+        </div>
+        <button class="car-brands__button"></button>
+      </section>
+
+      <section class="feedback-form">
+        <div class="feedback-form__info">
+          <h3 class="feedback-form__subtitle">Есть вопросы?</h3>
+          <h2 class="feedback-form__title">Мы свяжемся с вами</h2>
+          <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим вниманием относимся к каждому отзыву 
+            или мнению, будь то конструктивные замечания или слова благодарности.</p>
+          <input type="checkbox" id="checkbox" class="feedback-form__checkbox">
+            <label for="checkbox" class="feedback-form__label">Я согласен с условиями <a href="#" class="feedback-form__link">обработки персональных данных *</a></label>
+        </div>
+        <form action="submit" class="feedback-form__form">
+          <input 
+          type="text" 
+          class="feedback-form__input" 
+          name="" 
+          id="" 
+          placeholder="Ваше имя*">
+          <input 
+          type="text"
+          class="feedback-form__input"
+          name=""
+          id=""
+          placeholder="Ваш номер телефона*">
+          <button class="feedback-form__button">Отправить</button>
+        </form>
+      </section>
+      
+    </main>
+
+<footer class="footer">
+  <img src="../images/main-logo.svg" alt="" class="footer__logo">
+  <div class="footer__contacts">
+    <p class="footer__contacts-item"><img src="../images/address-icon.svg" alt="" class="footer__address-icon">Ленина 57, офис 34</p>
+    <p class="footer__contacts-item"><img src="../images/phone-icon.svg" alt="" class="footer__phone-icon">+7(999)123-45-67</p>
+    <p class="footer__contacts-item"><img src="../images/mail-icon.svg" alt="" class="footer__mail-icon">auto@gmail.com</p>
+    <div class="footer__socials">
+      <a href="#" class="footer__social-link"><img src="../images/footer-social-telegram.svg" alt="" class="footer__social-icon"></a>
+      <a href="#" class="footer__social-link"><img src="../images/footer-social-wa.svg" alt="" class="footer__social-icon"></a>
+      <a href="#" class="footer__social-link"><img src="../images/footer-social-youtube.svg" alt="" class="footer__social-icon"></a>
+      <a href="#" class="footer__social-link"><img src="../images/footer-social-tiktok.svg" alt="" class="footer__social-icon"></a>
+    </div>
+    <p class="footer__confidentiality">Политика конфиденциальности</p>
+    <p class="footer__year">2023 ©</p>
+    
+  </div>
+  <div class="footer__auto">
+    <a href="#" class="footer__link">Новые автомобили</a>
+    <a href="#" class="footer__link">Автомобили с пробегом</a>
+    <a href="#" class="footer__link">Коммерческие</a>
+    <a href="#" class="footer__link">Спецтехника</a>
+  </div>
+  <div class="footer__info">
+    <a href="./about.html" class="footer__link">О компании</a>
+    <a href="#" class="footer__link">Спецпредложения</a>
+    <a href="./services.html" class="footer__link">Сервис</a>
+    <a href="#" class="footer__link">Новости</a>
+    <a href="./contacts.html" class="footer__link">Контакты</a>
+  </div>
+</footer>
+</div>
+</body>
+</html>
