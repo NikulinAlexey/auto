@@ -1,0 +1,18 @@
+.about-car__credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 62px;
+  background-color: #303A40;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: inherit;
+  border: 1px solid #C72931;
+  height: 62px;
+  width: 220px;
+  box-sizing: border-box;
+}

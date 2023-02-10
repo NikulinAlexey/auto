@@ -1,0 +1,18 @@
+.results__previous-button {
+  background-image: url(../../../images/left-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #C72931;
+  width: 43px;
+  height: 43px;
+  margin-right: 30px;
+  opacity: .4;
+  transition: opacity .3s ease-in-out;
+}
+
+.results__previous-button:hover {
+  opacity: .8;
+  cursor: pointer;
+}

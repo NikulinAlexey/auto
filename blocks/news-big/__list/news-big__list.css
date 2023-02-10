@@ -1,0 +1,7 @@
+.news-big__list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin: 30px auto 0 0;
+  list-style-image: url(../../../images/list-item.svg);
+}

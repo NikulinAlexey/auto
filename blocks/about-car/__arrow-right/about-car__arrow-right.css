@@ -1,0 +1,19 @@
+.about-car__arrow-right {
+  position: absolute;
+  top: calc((100% - 60px)/2);
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .8;
+  transition: opacity .3s ease-in-out;
+  background-image: url(../../../images/reviews-right-arrow.svg);
+}
+
+.about-car__arrow-right:hover {
+  opacity: 1;
+  cursor: pointer;
+}

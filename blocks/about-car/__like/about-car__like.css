@@ -1,0 +1,16 @@
+.about-car__like {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-image: url(../../../images/like-icon-inactive.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.about-car__like:hover {
+  opacity: .8;
+  cursor: pointer;
+}

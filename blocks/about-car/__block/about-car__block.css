@@ -1,0 +1,6 @@
+.about-car__block {
+  display: grid;
+  grid-template-columns: minmax(320px, 783px) minmax(320px, 537px);
+  grid-template-rows: minmax(min-content, max-content);
+  gap: 40px;
+}

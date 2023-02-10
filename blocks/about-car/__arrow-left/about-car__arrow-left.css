@@ -1,0 +1,19 @@
+.about-car__arrow-left {
+  position: absolute;
+  top: calc((100% - 60px)/2);
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  opacity: .8;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity .3s ease-in-out;
+  background-image: url(../../../images/reviews-left-arrow.svg);
+}
+
+.about-car__arrow-left:hover {
+  opacity: 1;
+  cursor: pointer;
+}

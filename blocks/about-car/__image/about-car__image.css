@@ -1,0 +1,6 @@
+.about-car__image {
+  object-fit: cover;
+  height: 546px;
+  width: 100%;
+  border-radius: 20px;
+}

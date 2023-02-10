@@ -232,6 +232,7 @@
 @import url(../blocks/results/__button/_type/results__button_type_active.css);
 @import url(../blocks/results/__next-button/results__next-button.css);
 @import url(../blocks/results/__dots/results__dots.css);
+@import url(../blocks/results/__previous-button/results__previous-button.css);
 
 @import url(../blocks/cards/cards.css);
 
@@ -283,3 +284,31 @@
 @import url(../blocks/chat/__message-item/chat__message-item.css);
 
 @import url(../blocks/news-big/news-big.css);
+@import url(../blocks/news-big/__block/news-big__block.css);
+@import url(../blocks/news-big/__date/news-big__date.css);
+@import url(../blocks/news-big/__image/news-big__image.css);
+@import url(../blocks/news-big/__title/news-big__title.css);
+@import url(../blocks/news-big/__paragraph/news-big__paragraph.css);
+@import url(../blocks/news-big/__list/news-big__list.css);
+
+@import url(../blocks/promotion/promotion.css);
+@import url(../blocks/promotion/__title/promotion__title.css);
+@import url(../blocks/promotion/__more/promotion__more.css);
+@import url(../blocks/promotion/__icon/promotion__icon.css);
+@import url(../blocks/promotion/__text/promotion__text.css);
+
+@import url(../blocks/about-car/about-car.css);
+@import url(../blocks/about-car/__block/about-car__block.css);
+@import url(../blocks/about-car/__image-block/about-car__image-block.css);
+@import url(../blocks/about-car/__image/about-car__image.css);
+@import url(../blocks/about-car/__left/about-car__left.css);
+@import url(../blocks/about-car/__small-imgs/about-car__small-imgs.css);
+@import url(../blocks/about-car/__img-item/about-car__img-item.css);
+@import url(../blocks/about-car/__buttons/about-car__buttons.css);
+@import url(../blocks/about-car/__price/about-car__price.css);
+@import url(../blocks/about-car/__credit/about-car__credit.css);
+@import url(../blocks/about-car/__send/about-car__send.css);
+@import url(../blocks/about-car/__status/about-car__status.css);
+@import url(../blocks/about-car/__like/about-car__like.css);
+@import url(../blocks/about-car/__arrow-right/about-car__arrow-right.css);
+@import url(../blocks/about-car/__arrow-left/about-car__arrow-left.css);

@@ -1,0 +1,11 @@
+.about-car__status {
+  background-color: #C72931;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}

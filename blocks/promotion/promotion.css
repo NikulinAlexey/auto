@@ -1,0 +1,4 @@
+.promotion {
+  display: flex;
+  flex-direction: column;
+}
