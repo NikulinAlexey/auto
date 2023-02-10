@@ -1,0 +1,5 @@
+.chat__message-item {}
+
+.chat__message-item:first-of-type {
+  margin-top: auto;
+}

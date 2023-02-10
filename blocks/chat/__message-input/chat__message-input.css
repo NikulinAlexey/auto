@@ -7,6 +7,8 @@
   line-height: 140%;
   margin: auto auto auto 10px;
   height: 50%;
+  max-height: 50%;
+  resize: none;
   width: calc(100% - 88px);
 }
 

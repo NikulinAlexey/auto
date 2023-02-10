@@ -115,6 +115,7 @@
 @import url(../blocks/news/__image/news__image.css);
 @import url(../blocks/news/__subtitle/news__subtitle.css);
 @import url(../blocks/news/__paragraph/news__paragraph.css);
+@import url(../blocks/news/__item-link/news__item-link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -276,3 +277,9 @@
 @import url(../blocks/chat/__message-input/chat__message-input.css);
 @import url(../blocks/chat/__file/chat__file.css);
 @import url(../blocks/chat/__send-button/chat__send-button.css);
+@import url(../blocks/chat/__rolling-window/chat__rolling-window.css);
+@import url(../blocks/chat/__rolling-window/_type/chat__rolling-window_type_closed.css);
+@import url(../blocks/chat/_type/chat_type_closed.css);
+@import url(../blocks/chat/__message-item/chat__message-item.css);
+
+@import url(../blocks/news-big/news-big.css);

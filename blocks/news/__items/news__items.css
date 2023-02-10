@@ -1,5 +1,6 @@
 .news__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 453px));
+  grid-template-rows: repeat(auto-fit, minmax(min-content , max-content));
   gap: 40px;
 }

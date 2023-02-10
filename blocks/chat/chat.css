@@ -1,10 +1,13 @@
 .chat {
+  position: fixed;
+  bottom: 0;
+  right: 80px;
   background-color: #283035;
   border-radius: 20px;
   width: 340px;
-  height: 620px;
-  margin: 20px auto;
+  margin: 0;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }

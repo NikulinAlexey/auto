@@ -11,6 +11,36 @@
 
 <body class="body">
   <div class="page">
+    <section class="chat chat_type_closed">
+      <div class="chat__header-block">
+        <div class="chat__title">Чат с компанией</div>
+        <div class="chat__roll-icon"></div>
+        <div class="chat__close-icon"></div>
+      </div>
+      <div class="chat__rolling-window">
+        <div class="chat__messages-block">
+          <div class="chat__sup-message">
+            <img src="./images/chat-sup-icon.svg" alt="" class="chat__sup-icon">
+            <p class="chat__message">Дорый день !</p>
+          </div>
+          <div class="chat__user-message">
+            <p class="chat__message">Мне нужна помощь</p>
+            <img src="./images/chat-user-icon.svg" alt="" class="chat__user-icon">
+          </div>
+        </div>
+        <form class="chat__message-block" type="submit" action="" method="post" id="">
+          <textarea
+           type="text"
+           class="chat__message-input"
+           placeholder="Введите сообщение и нажмите Enter"
+           name="" id="" cols="10" rows="1" autofocus form=""></textarea>
+          <div class="chat__file"></div>
+          <button class="chat__send-button" type="submit"></button>
+        </form>
+        <div class="chat__personal">Я согласен с условиями обработки персональных данных</div>
+      </div>
+    </section>
+
     <header class="header">
       <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
       <ul class="header__link-list">
@@ -511,6 +541,7 @@
       </div>
     </footer>
   </div>
+  <script src="../js/index.js"></script>
 </body>
 
 </html>

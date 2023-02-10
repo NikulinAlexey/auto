@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <link rel="stylesheet" href="./index.css">
   <meta charset="UTF-8">
@@ -7,8 +8,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auto</title>
 </head>
+
 <body class="body">
   <div class="page">
+    <section class="chat chat_type_closed">
+      <div class="chat__header-block">
+        <div class="chat__title">Чат с компанией</div>
+        <div class="chat__roll-icon"></div>
+        <div class="chat__close-icon"></div>
+      </div>
+      <div class="chat__rolling-window">
+        <div class="chat__messages-block">
+          <div class="chat__sup-message">
+            <img src="./images/chat-sup-icon.svg" alt="" class="chat__sup-icon">
+            <p class="chat__message">Дорый день !</p>
+          </div>
+          <div class="chat__user-message">
+            <p class="chat__message">Мне нужна помощь</p>
+            <img src="./images/chat-user-icon.svg" alt="" class="chat__user-icon">
+          </div>
+        </div>
+        <form class="chat__message-block" type="submit" action="" method="post" id="">
+          <textarea
+           type="text"
+           class="chat__message-input"
+           placeholder="Введите сообщение и нажмите Enter"
+           name="" id="" cols="10" rows="1" autofocus form=""></textarea>
+          <div class="chat__file"></div>
+          <button class="chat__send-button" type="submit"></button>
+        </form>
+        <div class="chat__personal">Я согласен с условиями обработки персональных данных</div>
+      </div>
+    </section>
+
     <header class="header">
       <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
       <ul class="header__link-list">
@@ -30,7 +62,7 @@
         <button class="header__chat"></button>
         <div class="header__phone">+7(999)123-45-67</div>
       </div>
-      
+
     </header>
 
     <main class="content">
@@ -92,40 +124,28 @@
                 <h3 class="filter__subtitle">Двигатель</h3>
                 <div class="filter__engine-radio">
                   <label for="petrol" class="filter__label-radio">
-                    <input type="radio"
-                       name="engine-type"
-                       id="petrol"
-                       class="filter__radio filter__radio-extra" 
-                       value="petrol">
-                     <span class="filter__pseudo-radio"></span>
-                     <span class="filter__pseudo-label">Бензин</span>
+                    <input type="radio" name="engine-type" id="petrol" class="filter__radio filter__radio-extra"
+                      value="petrol">
+                    <span class="filter__pseudo-radio"></span>
+                    <span class="filter__pseudo-label">Бензин</span>
                   </label>
                   <label for="hybrid" class="filter__label-radio">
-                    <input type="radio"
-                       name="engine-type"
-                       id="hybrid"
-                       class="filter__radio filter__radio-extra" 
-                       value="hybrid">
-                     <span class="filter__pseudo-radio"></span>
-                     <span class="filter__pseudo-label">Гибрид</span>
+                    <input type="radio" name="engine-type" id="hybrid" class="filter__radio filter__radio-extra"
+                      value="hybrid">
+                    <span class="filter__pseudo-radio"></span>
+                    <span class="filter__pseudo-label">Гибрид</span>
                   </label>
                   <label for="engine" class="filter__label-radio">
-                    <input type="radio"
-                       name="engine-type"
-                       id="engine"
-                       class="filter__radio filter__radio-extra" 
-                       value="diesel">
-                     <span class="filter__pseudo-radio"></span>
-                     <span class="filter__pseudo-label">Дизель</span>
+                    <input type="radio" name="engine-type" id="engine" class="filter__radio filter__radio-extra"
+                      value="diesel">
+                    <span class="filter__pseudo-radio"></span>
+                    <span class="filter__pseudo-label">Дизель</span>
                   </label>
                   <label for="electric" class="filter__label-radio">
-                    <input type="radio"
-                       name="engine-type"
-                       id="electric"
-                       class="filter__radio filter__radio-extra" 
-                       value="electric">
-                     <span class="filter__pseudo-radio"></span>
-                     <span class="filter__pseudo-label">Электрический</span>
+                    <input type="radio" name="engine-type" id="electric" class="filter__radio filter__radio-extra"
+                      value="electric">
+                    <span class="filter__pseudo-radio"></span>
+                    <span class="filter__pseudo-label">Электрический</span>
                   </label>
                 </div>
               </div>
@@ -133,22 +153,14 @@
                 <h3 class="filter__subtitle">Привод</h3>
                 <div class="filter__wd-radio">
                   <label for="4WD" class="filter__label-radio">
-                    <input type="radio"
-                       name="WD-type"
-                       id="4WD"
-                       class="filter__radio filter__radio-extra" 
-                       value="4WD">
-                     <span class="filter__pseudo-radio"></span>
-                     <span class="filter__pseudo-label">4WD</span>
+                    <input type="radio" name="WD-type" id="4WD" class="filter__radio filter__radio-extra" value="4WD">
+                    <span class="filter__pseudo-radio"></span>
+                    <span class="filter__pseudo-label">4WD</span>
                   </label>
                   <label for="2WD" class="filter__label-radio">
-                    <input type="radio"
-                       name="WD-type"
-                       id="2WD"
-                       class="filter__radio filter__radio-extra" 
-                       value="2WD">
-                     <span class="filter__pseudo-radio"></span>
-                     <span class="filter__pseudo-label">2WD</span>
+                    <input type="radio" name="WD-type" id="2WD" class="filter__radio filter__radio-extra" value="2WD">
+                    <span class="filter__pseudo-radio"></span>
+                    <span class="filter__pseudo-label">2WD</span>
                   </label>
                 </div>
               </div>
@@ -157,31 +169,23 @@
           <div class="filter__button-block">
             <div class="filter__specificity">
               <label for="new-auto" class="filter__checkbox-label">
-                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
-                value="new-auto"
-                id="new-auto"
-                name="new-auto">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra" value="new-auto" id="new-auto"
+                  name="new-auto">
                 <span class="filter__pseudo-checkbox">Новые авто</span>
               </label>
               <label for="used-cars" class="filter__checkbox-label">
-                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
-                value="used-cars"
-                id="used-cars"
-                name="used-auto">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra" value="used-cars" id="used-cars"
+                  name="used-auto">
                 <span class="filter__pseudo-checkbox">С пробегом</span>
               </label>
               <label for="commercial-auto" class="filter__checkbox-label">
-                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
-                value="commercial-auto"
-                id="commercial-auto"
-                name="commercial-auto">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra" value="commercial-auto"
+                  id="commercial-auto" name="commercial-auto">
                 <span class="filter__pseudo-checkbox">Коммерческие</span>
               </label>
               <label for="special-auto" class="filter__checkbox-label">
-                <input type="checkbox" class="filter__checkbox filter__checkbox-extra"
-                value="special-auto"
-                id="special-auto"
-                name="special-auto">
+                <input type="checkbox" class="filter__checkbox filter__checkbox-extra" value="special-auto"
+                  id="special-auto" name="special-auto">
                 <span class="filter__pseudo-checkbox">Спецтехника</span>
               </label>
             </div>
@@ -189,11 +193,7 @@
               <p class="filter__range-label">от 100 000 ₽</p>
               <p class="filter__range-label">до 1 000 000 ₽</p>
             </div>
-            <input
-            type="range"
-            min="100000"
-            max="1000000"
-            class="filter__range">
+            <input type="range" min="100000" max="1000000" class="filter__range">
             <button class="filter__button" type="submit">Подобрать автомобиль</button>
           </div>
         </form>
@@ -854,60 +854,61 @@
         <div class="feedback-form__info">
           <h3 class="feedback-form__subtitle">Есть вопросы?</h3>
           <h2 class="feedback-form__title">Мы свяжемся с вами</h2>
-          <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим вниманием относимся к каждому отзыву 
+          <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим вниманием
+            относимся к каждому отзыву
             или мнению, будь то конструктивные замечания или слова благодарности.</p>
           <input type="checkbox" id="checkbox" class="feedback-form__checkbox">
-            <label for="checkbox" class="feedback-form__label">Я согласен с условиями <a href="#" class="feedback-form__link">обработки персональных данных *</a></label>
+          <label for="checkbox" class="feedback-form__label">Я согласен с условиями <a href="#"
+              class="feedback-form__link">обработки персональных данных *</a></label>
         </div>
         <form action="submit" class="feedback-form__form">
-          <input 
-          type="text" 
-          class="feedback-form__input" 
-          name="" 
-          id="" 
-          placeholder="Ваше имя*">
-          <input 
-          type="text"
-          class="feedback-form__input"
-          name=""
-          id=""
-          placeholder="Ваш номер телефона*">
+          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваше имя*">
+          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваш номер телефона*">
           <button class="feedback-form__button">Отправить</button>
         </form>
       </section>
-      
+
     </main>
 
-<footer class="footer">
-  <img src="../images/main-logo.svg" alt="" class="footer__logo">
-  <div class="footer__contacts">
-    <p class="footer__contacts-item"><img src="../images/address-icon.svg" alt="" class="footer__address-icon">Ленина 57, офис 34</p>
-    <p class="footer__contacts-item"><img src="../images/phone-icon.svg" alt="" class="footer__phone-icon">+7(999)123-45-67</p>
-    <p class="footer__contacts-item"><img src="../images/mail-icon.svg" alt="" class="footer__mail-icon">auto@gmail.com</p>
-    <div class="footer__socials">
-      <a href="#" class="footer__social-link"><img src="../images/footer-social-telegram.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="../images/footer-social-wa.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="../images/footer-social-youtube.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="../images/footer-social-tiktok.svg" alt="" class="footer__social-icon"></a>
-    </div>
-    <p class="footer__confidentiality">Политика конфиденциальности</p>
-    <p class="footer__year">2023 ©</p>
-    
+    <footer class="footer">
+      <img src="../images/main-logo.svg" alt="" class="footer__logo">
+      <div class="footer__contacts">
+        <p class="footer__contacts-item"><img src="../images/address-icon.svg" alt=""
+            class="footer__address-icon">Ленина 57, офис 34</p>
+        <p class="footer__contacts-item"><img src="../images/phone-icon.svg" alt=""
+            class="footer__phone-icon">+7(999)123-45-67</p>
+        <p class="footer__contacts-item"><img src="../images/mail-icon.svg" alt=""
+            class="footer__mail-icon">auto@gmail.com</p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-telegram.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-wa.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-youtube.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-tiktok.svg" alt=""
+              class="footer__social-icon"></a>
+        </div>
+        <p class="footer__confidentiality">Политика конфиденциальности</p>
+        <p class="footer__year">2023 ©</p>
+
+      </div>
+      <div class="footer__auto">
+        <a href="#" class="footer__link">Новые автомобили</a>
+        <a href="#" class="footer__link">Автомобили с пробегом</a>
+        <a href="#" class="footer__link">Коммерческие</a>
+        <a href="#" class="footer__link">Спецтехника</a>
+      </div>
+      <div class="footer__info">
+        <a href="./about.html" class="footer__link">О компании</a>
+        <a href="#" class="footer__link">Спецпредложения</a>
+        <a href="./services.html" class="footer__link">Сервис</a>
+        <a href="#" class="footer__link">Новости</a>
+        <a href="./contacts.html" class="footer__link">Контакты</a>
+      </div>
+    </footer>
   </div>
-  <div class="footer__auto">
-    <a href="#" class="footer__link">Новые автомобили</a>
-    <a href="#" class="footer__link">Автомобили с пробегом</a>
-    <a href="#" class="footer__link">Коммерческие</a>
-    <a href="#" class="footer__link">Спецтехника</a>
-  </div>
-  <div class="footer__info">
-    <a href="./about.html" class="footer__link">О компании</a>
-    <a href="#" class="footer__link">Спецпредложения</a>
-    <a href="./services.html" class="footer__link">Сервис</a>
-    <a href="#" class="footer__link">Новости</a>
-    <a href="./contacts.html" class="footer__link">Контакты</a>
-  </div>
-</footer>
-</div>
+  <script src="../js/index.js"></script>
 </body>
+
 </html>

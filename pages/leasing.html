@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <link rel="stylesheet" href="index.css">
   <meta charset="UTF-8">
@@ -7,8 +8,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auto</title>
 </head>
+
 <body class="body">
   <div class="page">
+    <section class="chat chat_type_closed">
+      <div class="chat__header-block">
+        <div class="chat__title">Чат с компанией</div>
+        <div class="chat__roll-icon"></div>
+        <div class="chat__close-icon"></div>
+      </div>
+      <div class="chat__rolling-window">
+        <div class="chat__messages-block">
+          <div class="chat__sup-message">
+            <img src="./images/chat-sup-icon.svg" alt="" class="chat__sup-icon">
+            <p class="chat__message">Дорый день !</p>
+          </div>
+          <div class="chat__user-message">
+            <p class="chat__message">Мне нужна помощь</p>
+            <img src="./images/chat-user-icon.svg" alt="" class="chat__user-icon">
+          </div>
+        </div>
+        <form class="chat__message-block" type="submit" action="" method="post" id="">
+          <textarea
+           type="text"
+           class="chat__message-input"
+           placeholder="Введите сообщение и нажмите Enter"
+           name="" id="" cols="10" rows="1" autofocus form=""></textarea>
+          <div class="chat__file"></div>
+          <button class="chat__send-button" type="submit"></button>
+        </form>
+        <div class="chat__personal">Я согласен с условиями обработки персональных данных</div>
+      </div>
+    </section>
+
     <header class="header">
       <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
       <ul class="header__link-list">
@@ -30,7 +62,7 @@
         <button class="header__chat"></button>
         <div class="header__phone">+7(999)123-45-67</div>
       </div>
-      
+
     </header>
 
     <main class="content">
@@ -42,25 +74,32 @@
 
       <section class="leasing">
         <h1 class="leasing__title">Лизинг</h1>
-        <p class="leasing__paragraph">Лизинг является одним из наиболее эффективных финансовых инструментов, предоставляющих
-           реальную возможность организациям и предпринимателям обновлять свои основные средства, повышать конкурентоспособность предоставляемых услуг,
-          снижать налоговые и оперативные издержки. Лизинг совмещает в себе преимущества аренды, рассрочки и кредита:</p>
-          <p class="leasing__paragraph">Преимущества приобретения автомобиля в лизинг:</p>
+        <p class="leasing__paragraph">Лизинг является одним из наиболее эффективных финансовых инструментов,
+          предоставляющих
+          реальную возможность организациям и предпринимателям обновлять свои основные средства, повышать
+          конкурентоспособность предоставляемых услуг,
+          снижать налоговые и оперативные издержки. Лизинг совмещает в себе преимущества аренды, рассрочки и кредита:
+        </p>
+        <p class="leasing__paragraph">Преимущества приобретения автомобиля в лизинг:</p>
         <ul class="leasing__list">
-          <li class="leasing__list-item">Сохранение денежных средств в обороте, получение в пользование транспортных средств без
+          <li class="leasing__list-item">Сохранение денежных средств в обороте, получение в пользование транспортных
+            средств без
             единовременного отвлечения или стороннего привлечения денежных средств,
             приобретенные по договору лизинга автомобили являются залоговым обеспечением лизинговой сделки;
           </li>
-          <li class="leasing__list-item">Уменьшение налога на прибыль, лизинговый платеж без НДС в полном объеме относится на затраты,
-             а НДС в составе лизинговых платежей подлежит зачету;
+          <li class="leasing__list-item">Уменьшение налога на прибыль, лизинговый платеж без НДС в полном объеме
+            относится на затраты,
+            а НДС в составе лизинговых платежей подлежит зачету;
           </li>
-          <li class="leasing__list-item">Возможность применения коэффициента ускоренной амортизации позволяет предприятию максимально
-             быстро восстановить инвестиционные затраты;
+          <li class="leasing__list-item">Возможность применения коэффициента ускоренной амортизации позволяет
+            предприятию максимально
+            быстро восстановить инвестиционные затраты;
           </li>
-          <li class="leasing__list-item">Освобождение от уплаты налога на имущество и транспортного налога, 
+          <li class="leasing__list-item">Освобождение от уплаты налога на имущество и транспортного налога,
             так как автомобиль находится на балансе лизинговой компании;
           </li>
-          <li class="leasing__list-item">Построение удобного графика платежей (с учетом денежных потоков и финансовых возможностей предприятия);
+          <li class="leasing__list-item">Построение удобного графика платежей (с учетом денежных потоков и финансовых
+            возможностей предприятия);
           </li>
           <li class="leasing__list-item">Возможность чаще обновлять автопарк компании.
           </li>
@@ -85,36 +124,45 @@
       </section>
     </main>
 
-<footer class="footer">
-  <img src="../images/main-logo.svg" alt="" class="footer__logo">
-  <div class="footer__contacts">
-    <p class="footer__contacts-item"><img src="./images/address-icon.svg" alt="" class="footer__address-icon">Ленина 57, офис 34</p>
-    <p class="footer__contacts-item"><img src="./images/phone-icon.svg" alt="" class="footer__phone-icon">+7(999)123-45-67</p>
-    <p class="footer__contacts-item"><img src="./images/mail-icon.svg" alt="" class="footer__mail-icon">auto@gmail.com</p>
-    <div class="footer__socials">
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-telegram.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-wa.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-youtube.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-tiktok.svg" alt="" class="footer__social-icon"></a>
-    </div>
-    <p class="footer__confidentiality">Политика конфиденциальности</p>
-    <p class="footer__year">2023 ©</p>
-    
+    <footer class="footer">
+      <img src="../images/main-logo.svg" alt="" class="footer__logo">
+      <div class="footer__contacts">
+        <p class="footer__contacts-item"><img src="./images/address-icon.svg" alt="" class="footer__address-icon">Ленина
+          57, офис 34</p>
+        <p class="footer__contacts-item"><img src="./images/phone-icon.svg" alt=""
+            class="footer__phone-icon">+7(999)123-45-67</p>
+        <p class="footer__contacts-item"><img src="./images/mail-icon.svg" alt=""
+            class="footer__mail-icon">auto@gmail.com</p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-telegram.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-wa.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-youtube.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-tiktok.svg" alt=""
+              class="footer__social-icon"></a>
+        </div>
+        <p class="footer__confidentiality">Политика конфиденциальности</p>
+        <p class="footer__year">2023 ©</p>
+
+      </div>
+      <div class="footer__auto">
+        <a href="#" class="footer__link">Новые автомобили</a>
+        <a href="#" class="footer__link">Автомобили с пробегом</a>
+        <a href="#" class="footer__link">Коммерческие</a>
+        <a href="#" class="footer__link">Спецтехника</a>
+      </div>
+      <div class="footer__info">
+        <a href="./about.html" class="footer__link">О компании</a>
+        <a href="#" class="footer__link">Спецпредложения</a>
+        <a href="#" class="footer__link">Сервис</a>
+        <a href="#" class="footer__link">Новости</a>
+        <a href="#" class="footer__link">Контакты</a>
+      </div>
+    </footer>
   </div>
-  <div class="footer__auto">
-    <a href="#" class="footer__link">Новые автомобили</a>
-    <a href="#" class="footer__link">Автомобили с пробегом</a>
-    <a href="#" class="footer__link">Коммерческие</a>
-    <a href="#" class="footer__link">Спецтехника</a>
-  </div>
-  <div class="footer__info">
-    <a href="./about.html" class="footer__link">О компании</a>
-    <a href="#" class="footer__link">Спецпредложения</a>
-    <a href="#" class="footer__link">Сервис</a>
-    <a href="#" class="footer__link">Новости</a>
-    <a href="#" class="footer__link">Контакты</a>
-  </div>
-</footer>
-</div>
+  <script src="../js/index.js"></script>
 </body>
+
 </html>

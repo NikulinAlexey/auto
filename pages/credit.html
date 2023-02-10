@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <link rel="stylesheet" href="./index.css">
   <meta charset="UTF-8">
@@ -7,8 +8,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auto</title>
 </head>
+
 <body class="body">
   <div class="page">
+    <section class="chat chat_type_closed">
+      <div class="chat__header-block">
+        <div class="chat__title">Чат с компанией</div>
+        <div class="chat__roll-icon"></div>
+        <div class="chat__close-icon"></div>
+      </div>
+      <div class="chat__rolling-window">
+        <div class="chat__messages-block">
+          <div class="chat__sup-message">
+            <img src="./images/chat-sup-icon.svg" alt="" class="chat__sup-icon">
+            <p class="chat__message">Дорый день !</p>
+          </div>
+          <div class="chat__user-message">
+            <p class="chat__message">Мне нужна помощь</p>
+            <img src="./images/chat-user-icon.svg" alt="" class="chat__user-icon">
+          </div>
+        </div>
+        <form class="chat__message-block" type="submit" action="" method="post" id="">
+          <textarea
+           type="text"
+           class="chat__message-input"
+           placeholder="Введите сообщение и нажмите Enter"
+           name="" id="" cols="10" rows="1" autofocus form=""></textarea>
+          <div class="chat__file"></div>
+          <button class="chat__send-button" type="submit"></button>
+        </form>
+        <div class="chat__personal">Я согласен с условиями обработки персональных данных</div>
+      </div>
+    </section>
+
     <header class="header">
       <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
       <ul class="header__link-list">
@@ -30,7 +62,7 @@
         <button class="header__chat"></button>
         <div class="header__phone">+7(999)123-45-67</div>
       </div>
-      
+
     </header>
 
     <main class="content">
@@ -88,21 +120,13 @@
             </div>
             <p class="credit__subtitle">Подходящий взнос и срок кредита</p>
             <p class="credit__upper-lable">Первоначальный взнос</p>
-            <input
-              type="range"
-              min="100000"
-              max="1000000"
-              class="credit__range">
+            <input type="range" min="100000" max="1000000" class="credit__range">
             <div class="credit__down-labels">
               <p class="credit__range-label">от 100 000 ₽</p>
               <p class="credit__range-label">до 1 000 000 ₽</p>
             </div>
             <p class="credit__upper-lable">Срок кредитования</p>
-              <input
-              type="range"
-              min="12"
-              max="60"
-              class="credit__range">
+            <input type="range" min="12" max="60" class="credit__range">
             <div class="credit__down-labels">
               <p class="credit__range-label">от 12 мес.</p>
               <p class="credit__range-label">до 60 мес.</p>
@@ -111,21 +135,13 @@
           <div class="credit__contacts">
             <h2 class="credit__title">Контактные данные</h2>
             <form action="submit" class="credit__form">
-              <input 
-              type="text" 
-              class="credit__input" 
-              name="" 
-              id="" 
-              placeholder="Ваше имя*">
-              <input 
-              type="text"
-              class="credit__input"
-              name=""
-              id=""
-              placeholder="Ваш номер телефона*">
-              <p class="credit__paragraph">Нажимая на кнопку "Получить предложение", вы даете согласие на обработку своих 
+              <input type="text" class="credit__input" name="" id="" placeholder="Ваше имя*">
+              <input type="text" class="credit__input" name="" id="" placeholder="Ваш номер телефона*">
+              <p class="credit__paragraph">Нажимая на кнопку "Получить предложение", вы даете согласие на обработку
+                своих
                 <a href="#" class="credit__link">персональных данных </a>
-                и соглашаетесь с политикой .</p>
+                и соглашаетесь с политикой .
+              </p>
               <button class="credit__button">Получить предложение</button>
             </form>
           </div>
@@ -134,48 +150,59 @@
 
       <section class="calculation">
         <h2 class="calculation__title">Расчёт кредита</h2>
-        <p class="calculation__paragraph">Наша компания предлагает своим клиентам широкие и гибкие возможности получения автокредита.</p>
-        <p class="calculation__paragraph">Продажа автомобилей с пробегом в кредит - это четкая и хорошо отработанная процедура, 
+        <p class="calculation__paragraph">Наша компания предлагает своим клиентам широкие и гибкие возможности получения
+          автокредита.</p>
+        <p class="calculation__paragraph">Продажа автомобилей с пробегом в кредит - это четкая и хорошо отработанная
+          процедура,
           которая позволяет вам в течение короткого времени стать владельцем понравившегося автомобиля.</p>
-          <ol class="calculation__list">
-            <li>Выбрать автомобиль;</li>
-            <li>Подать заявку на кредит автоматически во все банки;</li>
-            <li>Вместе со специалистом кредитного отдела выбрать самые выгодные условия из предложенных банками;</li>
-            <li>Подписать кредитный договор и стать владельцем выбранного автомобиля.</li>
-          </ol>
+        <ol class="calculation__list">
+          <li>Выбрать автомобиль;</li>
+          <li>Подать заявку на кредит автоматически во все банки;</li>
+          <li>Вместе со специалистом кредитного отдела выбрать самые выгодные условия из предложенных банками;</li>
+          <li>Подписать кредитный договор и стать владельцем выбранного автомобиля.</li>
+        </ol>
       </section>
     </main>
 
-<footer class="footer">
-  <img src="../images/main-logo.svg" alt="" class="footer__logo">
-  <div class="footer__contacts">
-    <p class="footer__contacts-item"><img src="./images/address-icon.svg" alt="" class="footer__address-icon">Ленина 57, офис 34</p>
-    <p class="footer__contacts-item"><img src="./images/phone-icon.svg" alt="" class="footer__phone-icon">+7(999)123-45-67</p>
-    <p class="footer__contacts-item"><img src="./images/mail-icon.svg" alt="" class="footer__mail-icon">auto@gmail.com</p>
-    <div class="footer__socials">
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-telegram.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-wa.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-youtube.svg" alt="" class="footer__social-icon"></a>
-      <a href="#" class="footer__social-link"><img src="./images/footer-social-tiktok.svg" alt="" class="footer__social-icon"></a>
-    </div>
-    <p class="footer__confidentiality">Политика конфиденциальности</p>
-    <p class="footer__year">2023 ©</p>
-    
+    <footer class="footer">
+      <img src="../images/main-logo.svg" alt="" class="footer__logo">
+      <div class="footer__contacts">
+        <p class="footer__contacts-item"><img src="./images/address-icon.svg" alt="" class="footer__address-icon">Ленина
+          57, офис 34</p>
+        <p class="footer__contacts-item"><img src="./images/phone-icon.svg" alt=""
+            class="footer__phone-icon">+7(999)123-45-67</p>
+        <p class="footer__contacts-item"><img src="./images/mail-icon.svg" alt=""
+            class="footer__mail-icon">auto@gmail.com</p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-telegram.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-wa.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-youtube.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/footer-social-tiktok.svg" alt=""
+              class="footer__social-icon"></a>
+        </div>
+        <p class="footer__confidentiality">Политика конфиденциальности</p>
+        <p class="footer__year">2023 ©</p>
+
+      </div>
+      <div class="footer__auto">
+        <a href="#" class="footer__link">Новые автомобили</a>
+        <a href="#" class="footer__link">Автомобили с пробегом</a>
+        <a href="#" class="footer__link">Коммерческие</a>
+        <a href="#" class="footer__link">Спецтехника</a>
+      </div>
+      <div class="footer__info">
+        <a href="./about.html" class="footer__link">О компании</a>
+        <a href="#" class="footer__link">Спецпредложения</a>
+        <a href="#" class="footer__link">Сервис</a>
+        <a href="#" class="footer__link">Новости</a>
+        <a href="#" class="footer__link">Контакты</a>
+      </div>
+    </footer>
   </div>
-  <div class="footer__auto">
-    <a href="#" class="footer__link">Новые автомобили</a>
-    <a href="#" class="footer__link">Автомобили с пробегом</a>
-    <a href="#" class="footer__link">Коммерческие</a>
-    <a href="#" class="footer__link">Спецтехника</a>
-  </div>
-  <div class="footer__info">
-    <a href="./about.html" class="footer__link">О компании</a>
-    <a href="#" class="footer__link">Спецпредложения</a>
-    <a href="#" class="footer__link">Сервис</a>
-    <a href="#" class="footer__link">Новости</a>
-    <a href="#" class="footer__link">Контакты</a>
-  </div>
-</footer>
-</div>
+  <script src="../js/index.js"></script>
 </body>
+
 </html>
