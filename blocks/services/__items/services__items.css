@@ -5,3 +5,9 @@
   gap: 40px;
   margin: 0 auto 50px auto;
 }
+
+@media screen and (max-width: 1020px) {
+  .services__items {
+    gap: 20px;
+  }
+}

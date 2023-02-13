@@ -1,0 +1,11 @@
+.about-car__details {
+  padding-bottom: 14px;
+  opacity: 1;
+  margin: 0 auto 0 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.about-car__details:hover {
+  opacity: .8;
+  cursor: pointer;
+}

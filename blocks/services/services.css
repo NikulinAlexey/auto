@@ -1,4 +1,18 @@
 .services {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1460px) {
+  .services {
+    width: 96%;
+    margin: 0 2%;
+  }  
+}
+
+@media screen and (max-width: 450px) {
+  .services {
+    width: 96%;
+    margin: 0 auto;
+  }
 }

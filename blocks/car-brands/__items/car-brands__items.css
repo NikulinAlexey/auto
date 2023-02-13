@@ -1,6 +1,6 @@
 .car-brands__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 110px);
+  grid-template-columns: repeat(auto-fit, minmax(60px, 110px));
   grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
   gap: 11px;
   box-sizing: border-box;

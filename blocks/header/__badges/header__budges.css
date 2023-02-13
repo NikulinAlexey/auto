@@ -2,3 +2,9 @@
   display: flex;
   margin: 0 80px 0 0;
 }
+
+@media screen  and (max-width: 1320px){
+  .header__budges {
+    margin-right: auto;
+  }
+}

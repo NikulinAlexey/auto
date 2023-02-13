@@ -18,3 +18,9 @@
   cursor: pointer;
   opacity: .8;
 }
+
+@media screen  and (max-width: 1320px){
+  .header__saved {
+    margin-right: 10px;
+  }
+}

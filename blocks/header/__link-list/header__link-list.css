@@ -4,3 +4,9 @@
   margin: 0 105px 0 0;
   padding: 0;
 }
+
+@media screen  and (max-width: 1320px){
+  .header__link-list {
+    margin-right: auto;
+  }
+}

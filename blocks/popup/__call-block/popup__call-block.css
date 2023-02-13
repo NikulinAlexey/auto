@@ -1,0 +1,5 @@
+.popup__call-block {
+  display: grid;
+  grid-template-columns: 563px 400px;
+  gap: 14px;
+}

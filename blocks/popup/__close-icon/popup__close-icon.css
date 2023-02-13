@@ -1,0 +1,15 @@
+.popup__close-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../images/chat-close-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.popup__close-icon:hover {
+  opacity: .8;
+  cursor: pointer;
+}

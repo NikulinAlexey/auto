@@ -11,7 +11,7 @@
 
 <body class="body">
   <div class="page">
-    <section class="chat chat_type_closed">
+    <div class="chat chat_type_closed">
       <div class="chat__header-block">
         <div class="chat__title">Чат с компанией</div>
         <div class="chat__roll-icon"></div>
@@ -39,7 +39,54 @@
         </form>
         <div class="chat__personal">Я согласен с условиями обработки персональных данных</div>
       </div>
-    </section>
+    </div>
+
+    <div class="popup popup_type_order"> <!--Открывается/закрывается popup добавлением/удалением класса "popup_type_opened"-->
+      <div class="popup__container popup__container_type_order">
+        <div class="popup__title-block">
+          <div class="popup__title">Оставить заявку</div>
+          <div class="popup__close-icon"></div>
+        </div>
+        <div class="popup__block">
+          <div class="popup__car-block">
+            <img src="../images/about-car-image.jpg" alt="" class="popup__car-image">
+            <div class="popup__car-title">Omoda 5 / 2022</div>
+            <div class="popup__car-price">2 855 000 р.</div>
+          </div>
+          <form action="submit" class="popup__form-order">
+            <input type="text" placeholder="Ваше имя*" class="feedback-form__input" required>
+            <input type="text" placeholder="Ваш номер телефона*" class="feedback-form__input" required>
+            <input type="text" placeholder="Email" class="feedback-form__input" required>
+            <div class="popup__button-block">
+              <button type="submit" class="popup__button">Отправить</button>
+              <div class="popup__paragraph">Нажимая на кнопку "Отправить", вы даете согласие на обработку своих <a href="#" class="popup__link">персональных данных</a> и соглашаетесь с политикой.
+              </div>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="popup popup_type_offer">
+      <div class="popup__container popup__container_type_offer">
+        <div class="popup__title-block">
+          <div class="popup__title">Хотите получить наше самое выгодное предложение?</div>
+          <div class="popup__close-icon"></div>
+        </div>
+        <div class="popup__subtitle">Позвоним вам и расскажем подробнее</div>
+        <div class="popup__call-block">
+          <img src="../images/car-popup.svg" alt="" class="popup__call-image">
+          <form action="submit" class="popup__form-order">
+            <input type="text" placeholder="Введите имя" class="feedback-form__input" required>
+            <input type="text" placeholder="+7 (000) 000-00-00" class="feedback-form__input" required>
+            <button class="popup__offer-btn" type="submit">Жду звонка</button>
+            <div class="popup__offer-paragraph">Нажимая на кнопку "Отправить", вы даете согласие на обработку своих
+              <a href="#" class="popup__link">персональных данных</a> и соглашаетесь с политикой.</div>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <header class="header">
       <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
@@ -629,6 +676,7 @@
       </div>
     </footer>
   </div>
+  <script src="../js/popup.js"></script>
   <script src="../js/index.js"></script>
 </body>
 </html>

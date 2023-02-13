@@ -1,0 +1,15 @@
+.about-car__description-title {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 15px;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.about-car__description-title:hover {
+  opacity: .8;
+  cursor: pointer;
+}

@@ -5,3 +5,10 @@
   flex-direction: column;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1441px) {
+  .сar-brands {
+    max-width: 90%;
+    margin: 0 5%;
+  }
+}

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto</title>
+</head>
+
+<body class="body">
+  <div class="page">
+    <section class="chat chat_type_closed">
+      <div class="chat__header-block">
+        <div class="chat__title">Чат с компанией</div>
+        <div class="chat__roll-icon"></div>
+        <div class="chat__close-icon"></div>
+      </div>
+      <div class="chat__rolling-window">
+        <div class="chat__messages-block">
+          <div class="chat__sup-message">
+            <img src="./images/chat-sup-icon.svg" alt="" class="chat__sup-icon">
+            <p class="chat__message">Дорый день !</p>
+          </div>
+          <div class="chat__user-message">
+            <p class="chat__message">Мне нужна помощь</p>
+            <img src="./images/chat-user-icon.svg" alt="" class="chat__user-icon">
+          </div>
+        </div>
+        <form class="chat__message-block" type="submit" action="" method="post" id="">
+          <textarea
+           type="text"
+           class="chat__message-input"
+           placeholder="Введите сообщение и нажмите Enter"
+           name="" id="" cols="10" rows="1" autofocus form=""></textarea>
+          <div class="chat__file"></div>
+          <button class="chat__send-button" type="submit"></button>
+        </form>
+        <div class="chat__personal">Я согласен с условиями обработки персональных данных</div>
+      </div>
+    </section>
+
+    <header class="header">
+      <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
+      <ul class="header__link-list">
+        <li>
+          <a href="#" class="header__link header__link_type_auto">Автомобили</a>
+        </li>
+        <li>
+          <a href="./services.html" class="header__link header__link_type_service">Сервис</a>
+        </li>
+        <li>
+          <a href="./contacts.html" class="header__link header__link_type_contacts">Контакты</a>
+        </li>
+        <li>
+          <a href="./about.html" class="header__link header__link_type_about">О компании</a>
+        </li>
+      </ul>
+      <div class="header__badges">
+        <button class="header__saved"></button>
+        <button class="header__chat"></button>
+        <div class="header__phone">+7(999)123-45-67</div>
+      </div>
+
+    </header>
+
+    <main class="content">
+      <div class="navigation">
+        <a href="../index.html" class="navigation__main-link">Главная</a>
+        <div class="navigation__circle"></div>
+        <a href="../pages/offers.html" class="navigation__main-link">Автомобили в наличии</a>
+        <div class="navigation__circle"></div>
+        <h4 class="navigation__service">BMW 3  2019 года с пробегом 67300 км</h4>
+      </div>
+      
+      <section class="about-car">
+        <div class="about-car__block">
+          <div class="about-car__left">
+            <div class="about-car__image-block">
+              <img src="../images/about-car-image.jpg" alt="" class="about-car__image">
+              <div class="about-car__status">Ожидается поставка</div> <!--Здесь менять цвета блока можно с помощью добавления классов: "card__state_type_order- под заказ", "card__state_type_expect-delivery- ожидает доставки"-->
+              <div class="about-car__like"></div>
+              <div class="about-car__arrow-right"></div>
+              <div class="about-car__arrow-left"></div>
+            </div>
+            <div class="about-car__small-imgs">
+              <img src="../images/about-car-image.jpg" alt="" class="about-car__img-item">
+              <img src="../images/about-car-image.jpg" alt="" class="about-car__img-item">
+              <img src="../images/about-car-image.jpg" alt="" class="about-car__img-item">
+              <img src="../images/about-car-image.jpg" alt="" class="about-car__img-item">
+              <div class="about-car__arrow-right"></div>
+              <div class="about-car__arrow-left"></div>
+            </div>
+            <div class="about-car__buttons">
+              <div class="about-car__price">2 855 000  ₽</div>
+              <a href="./credit.html" class="about-car__credit">оформить в кредит</a>
+              <a href="#" class="about-car__send">Отправить заявку</a>
+            </div>
+          </div>
+          <div class="about-car__right">
+            <h2 class="about-car__title">BMW 3  2019 года с пробегом 67300 км</h2>
+            <div class="about-car__info">
+              <div class="about-car__details">Технические характеристики</div>
+              <div class="about-car__description about-car__details_type_active">Описание комплектации</div>
+            </div>
+            <div class="about-car__description-info">
+              <div class="about-car__description-block">
+                <div class="about-car__description-title about-car__description-title_type_active">
+                  <div class="about-car__description-text">Наборные операции</div>
+                  <img src="../../../images/chat-roll-icon.svg" alt="" class="about-car__description-icon about-car__description-icon_type_active">
+                </div>
+                <ul class="about-car__description-list">
+                  <li class="about-car__description-item">8 динамиков</li>
+                  <li class="about-car__description-item">Автокорректор фар</li>
+                  <li class="about-car__description-item">Ассистент движения на спуске (для полного привода 4Motion)</li>
+                  <li class="about-car__description-item">Беспроводной интерфейс для мобильного телефона Bluetooth</li>
+                  <li class="about-car__description-item">Выбор режимов движения</li>
+                  <li class="about-car__description-item">Два порта USB Type-C в центральной консоли</li>
+                  <li class="about-car__description-item">Датчик дождя</li>
+                  <li class="about-car__description-item">Дополнительная защита двигателя снизу</li>
+                  <li class="about-car__description-item">Комплект инструментов и домкрат</li>
+                  <li class="about-car__description-item">Круиз-контроль с ограничителем скорости</li>
+                  <li class="about-car__description-item">Индикатор низкого уровня омывающей жидкости</li>
+                  <li class="about-car__description-item">Многофункциональный цветной дисплей на приборной панели Premium</li>
+                  <li class="about-car__description-item">Наружные зеркала с электрорегулировкой и обогревом</li>
+                  <li class="about-car__description-item">Пакет для холодного климата (аккумулятор и генератор повышенной мощности)</li>
+                  <li class="about-car__description-item">Подогрев передних сидений</li>
+                </ul>
+              </div>
+              <div class="about-car__description-block">
+                <div class="about-car__description-title">
+                  <div class="about-car__description-text">Экстерьер</div>
+                  <img src="../../../images/chat-roll-icon.svg" alt="" class="about-car__description-icon">
+                </div>
+                <ul class="about-car__description-list about-car__description-list_type_closed">
+                  <li class="about-car__description-item">8 динамиков</li>
+                  <li class="about-car__description-item">Автокорректор фар</li>
+                  <li class="about-car__description-item">Ассистент движения на спуске (для полного привода 4Motion)</li>
+                  <li class="about-car__description-item">Беспроводной интерфейс для мобильного телефона Bluetooth</li>
+                  <li class="about-car__description-item">Выбор режимов движения</li>
+                  <li class="about-car__description-item">Два порта USB Type-C в центральной консоли</li>
+                  <li class="about-car__description-item">Датчик дождя</li>
+                  <li class="about-car__description-item">Дополнительная защита двигателя снизу</li>
+                  <li class="about-car__description-item">Комплект инструментов и домкрат</li>
+                  <li class="about-car__description-item">Круиз-контроль с ограничителем скорости</li>
+                  <li class="about-car__description-item">Индикатор низкого уровня омывающей жидкости</li>
+                  <li class="about-car__description-item">Многофункциональный цветной дисплей на приборной панели Premium</li>
+                  <li class="about-car__description-item">Наружные зеркала с электрорегулировкой и обогревом</li>
+                  <li class="about-car__description-item">Пакет для холодного климата (аккумулятор и генератор повышенной мощности)</li>
+                  <li class="about-car__description-item">Подогрев передних сидений</li>
+                </ul>
+              </div>
+              <div class="about-car__description-block">
+                <div class="about-car__description-title">
+                  <div class="about-car__description-text">Пассивная безопасность</div>
+                  <img src="../../../images/chat-roll-icon.svg" alt="" class="about-car__description-icon">
+                </div>
+                <ul class="about-car__description-list about-car__description-list_type_closed">
+                  <li class="about-car__description-item">8 динамиков</li>
+                  <li class="about-car__description-item">Автокорректор фар</li>
+                  <li class="about-car__description-item">Ассистент движения на спуске (для полного привода 4Motion)</li>
+                  <li class="about-car__description-item">Беспроводной интерфейс для мобильного телефона Bluetooth</li>
+                  <li class="about-car__description-item">Выбор режимов движения</li>
+                  <li class="about-car__description-item">Два порта USB Type-C в центральной консоли</li>
+                  <li class="about-car__description-item">Датчик дождя</li>
+                  <li class="about-car__description-item">Дополнительная защита двигателя снизу</li>
+                  <li class="about-car__description-item">Комплект инструментов и домкрат</li>
+                  <li class="about-car__description-item">Круиз-контроль с ограничителем скорости</li>
+                  <li class="about-car__description-item">Индикатор низкого уровня омывающей жидкости</li>
+                  <li class="about-car__description-item">Многофункциональный цветной дисплей на приборной панели Premium</li>
+                  <li class="about-car__description-item">Наружные зеркала с электрорегулировкой и обогревом</li>
+                  <li class="about-car__description-item">Пакет для холодного климата (аккумулятор и генератор повышенной мощности)</li>
+                  <li class="about-car__description-item">Подогрев передних сидений</li>
+                </ul>
+              </div>
+              <div class="about-car__description-block">
+                <div class="about-car__description-title">
+                  <div class="about-car__description-text">Интерьер</div>
+                  <img src="../../../images/chat-roll-icon.svg" alt="" class="about-car__description-icon">
+                </div>
+                <ul class="about-car__description-list about-car__description-list_type_closed">
+                  <li class="about-car__description-item">8 динамиков</li>
+                  <li class="about-car__description-item">Автокорректор фар</li>
+                  <li class="about-car__description-item">Ассистент движения на спуске (для полного привода 4Motion)</li>
+                  <li class="about-car__description-item">Беспроводной интерфейс для мобильного телефона Bluetooth</li>
+                  <li class="about-car__description-item">Выбор режимов движения</li>
+                  <li class="about-car__description-item">Два порта USB Type-C в центральной консоли</li>
+                  <li class="about-car__description-item">Датчик дождя</li>
+                  <li class="about-car__description-item">Дополнительная защита двигателя снизу</li>
+                  <li class="about-car__description-item">Комплект инструментов и домкрат</li>
+                  <li class="about-car__description-item">Круиз-контроль с ограничителем скорости</li>
+                  <li class="about-car__description-item">Индикатор низкого уровня омывающей жидкости</li>
+                  <li class="about-car__description-item">Многофункциональный цветной дисплей на приборной панели Premium</li>
+                  <li class="about-car__description-item">Наружные зеркала с электрорегулировкой и обогревом</li>
+                  <li class="about-car__description-item">Пакет для холодного климата (аккумулятор и генератор повышенной мощности)</li>
+                  <li class="about-car__description-item">Подогрев передних сидений</li>
+                </ul>
+              </div>
+              <div class="about-car__description-block">
+                <div class="about-car__description-title">
+                  <div class="about-car__description-text">Активная безопасность и подвеска</div>
+                  <img src="../../../images/chat-roll-icon.svg" alt="" class="about-car__description-icon">
+                </div>
+                <ul class="about-car__description-list about-car__description-list_type_closed">
+                  <li class="about-car__description-item">8 динамиков</li>
+                  <li class="about-car__description-item">Автокорректор фар</li>
+                  <li class="about-car__description-item">Ассистент движения на спуске (для полного привода 4Motion)</li>
+                  <li class="about-car__description-item">Беспроводной интерфейс для мобильного телефона Bluetooth</li>
+                  <li class="about-car__description-item">Выбор режимов движения</li>
+                  <li class="about-car__description-item">Два порта USB Type-C в центральной консоли</li>
+                  <li class="about-car__description-item">Датчик дождя</li>
+                  <li class="about-car__description-item">Дополнительная защита двигателя снизу</li>
+                  <li class="about-car__description-item">Комплект инструментов и домкрат</li>
+                  <li class="about-car__description-item">Круиз-контроль с ограничителем скорости</li>
+                  <li class="about-car__description-item">Индикатор низкого уровня омывающей жидкости</li>
+                  <li class="about-car__description-item">Многофункциональный цветной дисплей на приборной панели Premium</li>
+                  <li class="about-car__description-item">Наружные зеркала с электрорегулировкой и обогревом</li>
+                  <li class="about-car__description-item">Пакет для холодного климата (аккумулятор и генератор повышенной мощности)</li>
+                  <li class="about-car__description-item">Подогрев передних сидений</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="results">
+        <div class="results__title-block">
+          <h1 class="results__title">Вас также могут заинтересовать<span class="results__title-accent"></span></h1>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/card-image.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/interests1.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/interests2.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image-block">
+              <img src="../images/interests3.jpg" alt="" class="card__image">
+              <span class="card__state">В наличии</span>
+              <div class="card__like-icon"></div>
+              <div class="card__mask">
+                <div class="card__current-list">
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                  <div class="card__current-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card__text-block">
+              <h3 class="card__title">Omoda 5 / 2022</h3>
+              <div class="card__info">Бензин / 1,6 л / 197 л.с / Турбо / 2WD</div>
+              <div class="card__price">
+                <div class="card__current-price">2 855 000 р.</div>
+                <div class="card__old-price">2 855 000 р.</div>
+              </div>
+              <a href="#" class="card__details">Подробнее</a>
+              <a href="#" class="card__request">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="results__buttons">
+          <button class="results__previous-button"></button>
+          <button class="results__next-button"></button>
+        </div>
+      </section>
+
+      <section class="feedback-form">
+        <div class="feedback-form__info">
+          <h3 class="feedback-form__subtitle">Есть вопросы?</h3>
+          <h2 class="feedback-form__title">Мы свяжемся с вами</h2>
+          <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим вниманием
+            относимся к каждому отзыву
+            или мнению, будь то конструктивные замечания или слова благодарности.</p>
+          <input type="checkbox" id="checkbox" class="feedback-form__checkbox">
+          <label for="checkbox" class="feedback-form__label">Я согласен с условиями <a href="#"
+              class="feedback-form__link">обработки персональных данных *</a></label>
+        </div>
+        <form action="submit" class="feedback-form__form">
+          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваше имя*">
+          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваш номер телефона*">
+          <button class="feedback-form__button">Отправить</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <img src="../images/main-logo.svg" alt="" class="footer__logo">
+      <div class="footer__contacts">
+        <p class="footer__contacts-item"><img src="../images/address-icon.svg" alt=""
+            class="footer__address-icon">Ленина 57, офис 34</p>
+        <p class="footer__contacts-item"><img src="../images/phone-icon.svg" alt=""
+            class="footer__phone-icon">+7(999)123-45-67</p>
+        <p class="footer__contacts-item"><img src="../images/mail-icon.svg" alt=""
+            class="footer__mail-icon">auto@gmail.com</p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-telegram.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-wa.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-youtube.svg" alt=""
+              class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="../images/footer-social-tiktok.svg" alt=""
+              class="footer__social-icon"></a>
+        </div>
+        <p class="footer__confidentiality">Политика конфиденциальности</p>
+        <p class="footer__year">2023 ©</p>
+
+      </div>
+      <div class="footer__auto">
+        <a href="#" class="footer__link">Новые автомобили</a>
+        <a href="#" class="footer__link">Автомобили с пробегом</a>
+        <a href="#" class="footer__link">Коммерческие</a>
+        <a href="#" class="footer__link">Спецтехника</a>
+      </div>
+      <div class="footer__info">
+        <a href="./about.html" class="footer__link">О компании</a>
+        <a href="#" class="footer__link">Спецпредложения</a>
+        <a href="./services.html" class="footer__link">Сервис</a>
+        <a href="#" class="footer__link">Новости</a>
+        <a href="./contacts.html" class="footer__link">Контакты</a>
+      </div>
+    </footer>
+  </div>
+  <script src="../js/index.js"></script>
+</body>
+
+</html>

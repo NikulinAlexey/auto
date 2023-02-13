@@ -1,0 +1,4 @@
+.about-car__description-list {
+  list-style-image: url(../../../images/list-item.svg);
+  padding: 0 0 0 30px;
+}

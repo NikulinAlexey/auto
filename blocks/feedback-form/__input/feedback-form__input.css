@@ -9,9 +9,33 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
-  padding: 0;
+  padding: 20px 30px;
+  box-sizing: border-box;
 }
 
 .feedback-form__input:last-of-type {
   margin-bottom: 0;
+}
+
+::placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+:focus::-moz-placeholder {
+  color: transparent
+}
+
+:focus:-moz-placeholder {
+  color: transparent
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent
 }

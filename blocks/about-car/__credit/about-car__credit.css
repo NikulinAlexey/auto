@@ -15,4 +15,11 @@
   height: 62px;
   width: 220px;
   box-sizing: border-box;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.about-car__credit:hover {
+  opacity: .8;
+  cursor: pointer;
 }

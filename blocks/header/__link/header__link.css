@@ -4,6 +4,7 @@
   text-decoration: none;
   opacity: 1;
   transition: all .3s ease-in-out;
+  white-space: nowrap;
 }
 
 .header__link:hover {

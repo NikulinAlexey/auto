@@ -1,0 +1,4 @@
+.about-car__details-info {
+  display: flex;
+  flex-direction: column;
+}

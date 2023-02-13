@@ -1,5 +1,5 @@
 .about-car__send {
-  background: #C72931;
+  background-color: #C72931;
   border-radius: 14px;
   display: flex;
   align-items: center;
@@ -12,4 +12,11 @@
   height: 62px;
   width: 200px;
   margin: 0 0 0 38px;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.about-car__send:hover {
+  opacity: .8;
+  cursor: pointer;
 }
