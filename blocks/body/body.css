@@ -6,3 +6,9 @@
   background-color: #354249;
   color: #fff;
 }
+
+@media screen  and (max-width: 768px){
+  .body.lock {
+    overflow: hidden;
+  }
+}

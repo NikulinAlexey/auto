@@ -10,3 +10,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen  and (max-width: 1100px){
+  .header__phone {
+    width: 170px;
+  }
+}
