@@ -1,4 +1,5 @@
 .news__all {
+  display: block;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
@@ -8,10 +9,17 @@
   opacity: 1;
   text-decoration: none;
   color: inherit;
-  transition: all .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
 }
 
 .news__all:hover {
   opacity: .8;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .news__all {
+    top: calc(100% + 20px);
+    right: calc((100% - 241px)/2);
+  }
 }

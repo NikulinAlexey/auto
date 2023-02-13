@@ -4,3 +4,10 @@
   grid-template-rows: repeat(1, 62px);
   gap: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .filter__specificity {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }  
+}

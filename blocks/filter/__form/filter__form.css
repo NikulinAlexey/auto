@@ -1,7 +1,26 @@
 .filter__form {
   display: grid;
   grid-template-columns: 596px 585px;
-  grid-template-rows: min-content;
+  grid-template-rows: minmax(min-content, max-content);
   gap: 40px;
   margin: 0 102px;
+}
+
+@media screen and (max-width: 1480px) {
+  .filter__form {
+    grid-template-columns: 1fr;
+    margin: 0 50px;
+  }  
+}
+
+@media screen and (max-width: 650px) {
+  .filter__form {
+    margin: 0 10px;
+  }  
+}
+
+@media screen and (max-width: 550px) {
+  .filter__form {
+    gap: 0;
+  }  
 }

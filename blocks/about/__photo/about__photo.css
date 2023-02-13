@@ -1,6 +1,11 @@
 .about__photo {
-  width: 698px;
-  height: 479px;
+  width: 100%;
+  height: 477px;
   border-radius: 30px;
-  margin: 0 42px 0 0;
+  margin: 0;
+}
+@media screen and (max-width: 1024px) {
+  .about__photo {
+    display: none;
+  }  
 }

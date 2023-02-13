@@ -5,3 +5,9 @@
   font-size: 50px;
   line-height: 140%;
 }
+
+@media screen and (max-width: 1024px) {
+  .benefits__number {
+    font-size: 38px;
+  }  
+}

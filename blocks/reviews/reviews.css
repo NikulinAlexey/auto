@@ -6,3 +6,15 @@
   position: relative;
   height: 600px;
 }
+
+@media screen and (max-width: 820px) {
+  .reviews {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .reviews {
+    height: 280px;
+  }
+}

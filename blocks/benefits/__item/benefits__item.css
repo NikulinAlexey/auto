@@ -13,3 +13,16 @@
 .benefits__item:last-of-type {
   border-radius: 20px 20px 200px 20px;
 }
+
+@media screen and (max-width: 1024px) {
+  .benefits__item {
+    font-size: 38px;
+  }
+  .benefits__item:first-of-type {
+    border-radius: 20px;
+  }
+  
+  .benefits__item:last-of-type {
+    border-radius: 20px;
+  }
+}

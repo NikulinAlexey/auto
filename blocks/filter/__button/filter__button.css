@@ -17,3 +17,9 @@
   opacity: .8;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .filter__button {
+    margin-bottom: 30px;
+  }  
+}

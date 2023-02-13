@@ -1,4 +1,20 @@
 .benefits {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
+}
+
+@media screen and (max-width: 1480px) {
+  .benefits {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }  
+}
+@media screen and (max-width: 1200px) {
+  .benefits {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+    margin-bottom: 40px;
+  }  
 }

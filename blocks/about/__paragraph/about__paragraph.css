@@ -8,3 +8,9 @@
 .about__paragraph:nth-of-type(2n) {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 500px) {
+  .about__paragraph {
+    font-size: 14px;
+  }
+}

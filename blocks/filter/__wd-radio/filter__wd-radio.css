@@ -4,3 +4,11 @@
   grid-template-rows: repeat(2, 1fr);
   row-gap: 16px;
 }
+
+@media screen and (max-width: 550px) {
+  .filter__wd-radio {
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: min-content;
+    gap: 20px;
+  }  
+}

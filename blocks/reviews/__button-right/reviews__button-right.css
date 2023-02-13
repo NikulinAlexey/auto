@@ -16,3 +16,21 @@
 .reviews__button-right:hover {
   opacity: .8;
 }
+
+@media screen and (max-width: 1300px) {
+  .reviews__button-right {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .reviews__button-right {
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__button-right {
+    display: none;
+  }
+}

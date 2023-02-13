@@ -6,3 +6,9 @@
   line-height: 140%;
   margin: 40px 0 0 auto;
 }
+
+@media screen and (max-width: 500px) {
+  .about__author {
+    font-size: 17px;
+  }
+}

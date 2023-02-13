@@ -1,7 +1,19 @@
 .news__items {
   display: grid;
-  grid-template-columns: repeat(3, minmax(340px, 453px));
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: min-content;
   gap: 40px;
 }
 
+@media screen and (max-width: 1200px) {
+  .news__items {
+    gap: 20px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .news__items {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}

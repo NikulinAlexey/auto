@@ -1,3 +1,7 @@
+.filter__label-radio {
+  white-space: nowrap;
+}
+
 .filter__label-radio:hover {
   cursor: pointer;
 }
