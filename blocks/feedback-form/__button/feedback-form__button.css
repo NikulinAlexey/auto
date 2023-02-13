@@ -5,7 +5,7 @@
   background-color: #C72931;
   color: #fff;
   border: none;
-  margin-top: 42px;
+  margin-top: 20px;
   padding: 0;
   font-weight: 500;
   font-size: 16px;
@@ -17,4 +17,17 @@
 .feedback-form__button:hover {
   opacity: .8;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback-form__button {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .feedback-form__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

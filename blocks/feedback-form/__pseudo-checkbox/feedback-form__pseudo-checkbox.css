@@ -1,0 +1,34 @@
+.feedback-form__pseudo-checkbox {
+  /* элемент span теперь сможет принимать определённую ширину и высоту */
+  vertical-align: middle;
+  /* элемент и текст будут правильно выровнены по вертикали. Работает в паре с inline-block */
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  border: none;
+  /* граница */
+  border-radius: 6px;
+  background-color: #303A40;
+  object-fit: cover;
+  object-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 11px 0 0;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  background-image: url(../../../images/checkbox-usual-unactive.svg);
+}
+
+.feedback-form__pseudo-checkbox:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.feedback-form__checkbox:checked + .feedback-form__pseudo-checkbox {
+  background-image: url(../../../images/checkbox-usual-active.svg);
+}
+
+.feedback-form__checkbox:checked + .feedback-form__pseudo-checkbox {
+  background-image: url(../../../images/checkbox-usual-active.svg);
+}

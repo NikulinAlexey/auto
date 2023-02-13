@@ -16,3 +16,9 @@
 .galery__button-left:hover {
   opacity: .8;
 }
+
+@media screen and (max-width: 1024px) {
+  .galery__button-left {
+    display: none;
+  }  
+}

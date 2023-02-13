@@ -1,7 +1,14 @@
 .car-brands__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(60px, 110px));
-  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-  gap: 11px;
+  grid-template-columns: repeat(auto-fit, minmax(110px, auto));
+  grid-template-rows: repeat(auto-fit, minmax(min-content, 143px));
+  gap: 10px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px) {
+  .car-brands__items {
+    grid-template-columns: repeat(auto-fit, minmax(60px, auto));
+    grid-template-rows: repeat(auto-fit, minmax(min-content, 88px));
+  }
 }

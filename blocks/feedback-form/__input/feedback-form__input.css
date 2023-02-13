@@ -39,3 +39,10 @@
 :focus:-ms-input-placeholder {
   color: transparent
 }
+
+@media screen and (max-width: 500px) {
+  .feedback-form__input {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

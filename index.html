@@ -10,7 +10,7 @@
 </head>
 
 <body class="body">
-  <div class="page">
+  <div class="page"><!--
     <section class="chat chat_type_closed">
       <div class="chat__header-block">
         <div class="chat__title">Чат с компанией</div>
@@ -37,7 +37,7 @@
         <div class="chat__personal">Я согласен с условиями обработки персональных данных</div>
       </div>
     </section>
-
+-->
     <header class="header">
       <img src="./images/main-logo.svg" alt="Автомобиль" class="header__logo">
       <ul class="header__link-list">
@@ -60,7 +60,7 @@
         <div class="header__phone">+7(999)123-45-67</div>
       </div>
     </header>
-
+<!--
     <main class="content">
       <section class="сar-brands">
         <h1 style="display: none;" class="car-brands__main-title">Автомобили в наличии</h1>
@@ -124,7 +124,7 @@
           <a href="#" class="car-brands__link">
             <div class="car-brands__item">
               <div class="car-brands__border">
-                <img src="./images/car-brands/jetour.svg" alt="Логотип Жетур" class="car-brands__image">
+                <img src="./images/car-brands/jetour.png" alt="Логотип Жетур" class="car-brands__image">
               </div>
               <h2 class="car-brands__title">80 авто</h2>
             </div>
@@ -156,7 +156,7 @@
           <a href="#" class="car-brands__link">
             <div class="car-brands__item">
               <div class="car-brands__border">
-                <img src="./images/car-brands/changan.svg" alt="Логотип Чанган" class="car-brands__image">
+                <img src="./images/car-brands/changan.png" alt="Логотип Чанган" class="car-brands__image">
               </div>
               <h2 class="car-brands__title">80 авто</h2>
             </div>
@@ -188,7 +188,7 @@
           <a href="#" class="car-brands__link">
             <div class="car-brands__item">
               <div class="car-brands__border">
-                <img src="./images/car-brands/li.svg" alt="Логотип Ли" class="car-brands__image">
+                <img src="./images/car-brands/li.png" alt="Логотип Ли" class="car-brands__image">
               </div>
               <h2 class="car-brands__title">80 авто</h2>
             </div>
@@ -204,7 +204,7 @@
           <a href="#" class="car-brands__link">
             <div class="car-brands__item">
               <div class="car-brands__border">
-                <img src="./images/car-brands/xpeng.svg" alt="Логотип Икспенг" class="car-brands__image">
+                <img src="./images/car-brands/xpeng.png" alt="Логотип Икспенг" class="car-brands__image">
               </div>
               <h2 class="car-brands__title">80 авто</h2>
             </div>
@@ -284,7 +284,7 @@
           <a href="#" class="car-brands__link">
             <div class="car-brands__item">
               <div class="car-brands__border">
-                <img src="./images/car-brands/neta.svg" alt="Логотип Нета" class="car-brands__image">
+                <img src="./images/car-brands/neta.png" alt="Логотип Нета" class="car-brands__image">
               </div>
               <h2 class="car-brands__title">80 авто</h2>
             </div>
@@ -332,7 +332,7 @@
         </div>
         <button class="car-brands__button"></button>
       </section>
-
+<!--
       <section class="filter">
         <h2 class="filter__title">Параметры автомобиля</h2>
         <form action="submit" class="filter__form">
@@ -555,20 +555,28 @@
 
       <section class="feedback-form">
         <div class="feedback-form__info">
-          <h3 class="feedback-form__subtitle">Есть вопросы?</h3>
-          <h2 class="feedback-form__title">Мы свяжемся с вами</h2>
-          <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим вниманием
-            относимся к каждому отзыву
-            или мнению, будь то конструктивные замечания или слова благодарности.</p>
-          <input type="checkbox" id="checkbox" class="feedback-form__checkbox">
-          <label for="checkbox" class="feedback-form__label">Я согласен с условиями <a href="#"
-              class="feedback-form__link">обработки персональных данных *</a></label>
+          <div class="feedback-form__first">
+            <h3 class="feedback-form__subtitle">Есть вопросы?</h3>
+            <h2 class="feedback-form__title">Мы свяжемся с вами</h2>
+            <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим вниманием
+              относимся к каждому отзыву
+              или мнению, будь то конструктивные замечания или слова благодарности.
+            </p>
+          </div>
+          <form action="submit" id="feedback" class="feedback-form__second">
+            <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваше имя*">
+            <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваш номер телефона*">
+          </form>
         </div>
-        <form action="submit" class="feedback-form__form">
-          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваше имя*">
-          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваш номер телефона*">
-          <button class="feedback-form__button">Отправить</button>
-        </form>
+        <div action="submit" class="feedback-form__form">
+          <label for="checkbox" class="feedback-form__checkbox-label">
+            <input type="checkbox" class="feedback-form__checkbox feedback-form__checkbox-extra" value="" id="checkbox"
+              name="checkbox">
+            <span class="feedback-form__pseudo-checkbox"></span>
+            <span class="feedback-form__pseudo-label">Я согласен с условиями <a href="#" class="feedback-form__link">обработки персональных данных *</a></span>
+          </label>
+          <button class="feedback-form__button" form="feedback">Отправить</button>
+        </div>
       </section>
 
       <section class="news">
@@ -600,7 +608,7 @@
           </a>
         </div>
       </section>
-    </main>
+    --></main><!--
 
     <footer class="footer">
       <img src="./images/main-logo.svg" alt="" class="footer__logo">
@@ -631,8 +639,8 @@
         <a href="#" class="footer__link">Новости</a>
         <a href="#" class="footer__link">Контакты</a>
       </div>
-    </footer>
-  </div>
-  <script src="./js/index.js"></script>
+    </footer>-->
+  </div><!--
+  <script src="./js/index.js"></script>-->
 </body>
 </html>

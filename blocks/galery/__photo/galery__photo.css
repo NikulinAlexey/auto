@@ -4,4 +4,11 @@
   height: 400px;
   padding: 0;
   margin: 0 auto 20px auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .galery__photo {
+    margin-bottom: 10px;
+  }  
 }

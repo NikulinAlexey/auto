@@ -6,9 +6,18 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1441px) {
+@media screen and (max-width: 1480px) {
   .сar-brands {
-    max-width: 90%;
-    margin: 0 5%;
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .сar-brands {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
 }

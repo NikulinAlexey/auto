@@ -5,10 +5,18 @@
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all .3s ease-in-out;
 }
 
 .car-brands__border:hover {
   border-color: #C72931;
   cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .car-brands__border {
+    height: 60px;
+  }
 }

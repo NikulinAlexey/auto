@@ -105,6 +105,9 @@
 @import url(../blocks/feedback-form/__label/feedback-form__label.css);
 @import url(../blocks/feedback-form/__link/feedback-form__link.css);
 @import url(../blocks/feedback-form/__input/feedback-form__input.css);
+@import url(../blocks/feedback-form/__checkbox-label/feedback-form__checkbox-label.css);
+@import url(../blocks/feedback-form/__checkbox-extra/feedback-form__checkbox-extra.css);
+@import url(../blocks/feedback-form/__pseudo-checkbox/feedback-form__pseudo-checkbox.css);
 
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__title/news__title.css);

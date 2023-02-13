@@ -1,0 +1,16 @@
+.feedback-form__checkbox-label {
+  margin: 35px auto 0;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback-form__checkbox-label {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+}

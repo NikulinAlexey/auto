@@ -4,3 +4,9 @@
   font-size: 20px;
   line-height: 140%;
 }
+
+@media screen and (max-width: 500px) {
+  .feedback-form__subtitle {
+    font-size: 14px;
+  }
+}
