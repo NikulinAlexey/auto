@@ -1,8 +1,32 @@
 .credit {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   background-color: #283035;
   box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.04);
   border-radius: 20px 250px;
   padding: 30px 0 50px 0;
+}
+
+@media screen and (max-width: 1480px) {
+  .credit {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+ 
+
+@media screen and (max-width: 1200px) {
+  .credit {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .credit {
+    padding: 20px 0 30px 0;
+  }  
 }

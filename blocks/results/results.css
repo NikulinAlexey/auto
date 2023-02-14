@@ -1,5 +1,22 @@
 .results {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1480px) {
+  .results {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+
+@media screen and (max-width: 1200px) {
+  .results {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
 }

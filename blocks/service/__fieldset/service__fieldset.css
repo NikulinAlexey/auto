@@ -7,3 +7,28 @@
   margin: 0 58px;
   padding: 0;
 }
+
+@media screen and (max-width: 1480px) {
+  .service__fieldset {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .service__fieldset {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .service__fieldset {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .service__fieldset {
+    grid-template-columns: 1fr;
+    margin: 0 10px;
+  }
+}

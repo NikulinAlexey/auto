@@ -8,3 +8,10 @@
 .calculation__paragraph:nth-of-type(2n) {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .calculation__paragraph {
+    margin: 10px 0;
+    font-size: 16px;
+  }  
+}

@@ -6,3 +6,9 @@
   line-height: 140%;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 640px) {
+  .about-car__info {
+    flex-direction: column;
+  }  
+}

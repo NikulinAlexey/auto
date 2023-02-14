@@ -5,3 +5,10 @@
   margin: 0 100px 30px 80px;
   list-style-image: url(../../../images/list-item.svg);
 }
+
+@media screen and (max-width: 1024px) {
+  .leasing__list {
+    margin: 0 10px 20px 10px;
+    padding-left: 20px;
+  }  
+}

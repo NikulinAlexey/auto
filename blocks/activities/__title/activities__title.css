@@ -1,3 +1,15 @@
 .activities__title {
   margin: 0 auto 40px 60px;
 }
+
+@media screen and (max-width: 768px) {
+  .activities__title {
+    margin: 0 20px 20px 20px;
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  .activities__title {
+    font-size: 20px;
+  }  
+}

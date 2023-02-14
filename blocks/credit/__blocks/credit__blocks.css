@@ -1,6 +1,38 @@
 .credit__blocks {
   display: grid;
   grid-template-columns: 1fr 340px;
+  grid-template-rows: min-content;
   gap: 88px;
   margin: 0 207px;
+}
+
+@media screen and (max-width: 1480px) {
+  .credit__blocks {
+    margin: 0 100px;
+  }  
+} 
+
+@media screen and (max-width: 1330px) {
+  .credit__blocks {
+    margin: 0 80px;
+  }  
+} 
+
+@media screen and (max-width: 1100px) {
+  .credit__blocks {
+    margin: 0 40px;
+  }  
+} 
+
+@media screen and (max-width: 1024px) {
+  .credit__blocks {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }  
+}
+
+@media screen and (max-width: 650px) {
+  .credit__blocks {
+    margin: 0 10px;
+  }  
 }

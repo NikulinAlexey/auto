@@ -5,3 +5,12 @@
   line-height: 140%;
   margin: 30px auto auto 60px;
 }
+
+@media screen and (max-width: 1024px) {
+  .model-banner__name {
+    margin: 10px auto auto 83px;  
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+  }
+}

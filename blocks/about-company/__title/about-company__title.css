@@ -4,3 +4,11 @@
   line-height: 48px;
   margin: 0;
 }
+
+@media screen and (max-width: 1045px) {
+  .about-company__title {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+  }
+}

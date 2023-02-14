@@ -4,3 +4,9 @@
   line-height: 140%;
   margin: 0 0 20px 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .promotion__title {
+    margin-top: 30px;
+  }  
+}

@@ -7,3 +7,10 @@
   height: 100%;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+  .model__mask {
+    min-height: 80px;
+    height: 80px;
+  }  
+}

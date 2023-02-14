@@ -4,3 +4,9 @@
   line-height: 140%;
   margin: 0 0 30px 0;
 }
+
+@media screen and (max-width: 1100px) {
+  .model__filter-title {
+    font-size: 24px;
+  }  
+} 

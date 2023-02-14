@@ -1,3 +1,16 @@
 .about-car__buttons {
   display: flex;
 }
+
+@media screen and (max-width: 1000px) {
+  .about-car__buttons {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }  
+}
+
+@media screen and (max-width: 745px) {
+  .about-car__buttons {
+    flex-direction: column;
+  }  
+}

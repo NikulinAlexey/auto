@@ -3,3 +3,9 @@
   padding: 0  0 0 20px;
   list-style-image: url(../../../images/ul-check.svg);
 }
+
+@media screen and (max-width: 768px) {
+  .activities__list {
+    margin: 0 20px;
+  }  
+}

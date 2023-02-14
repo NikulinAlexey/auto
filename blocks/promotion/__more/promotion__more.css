@@ -10,3 +10,9 @@
   opacity: .8;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .promotion__more {
+    margin-top: 20px;
+  }  
+}

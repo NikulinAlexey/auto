@@ -1,4 +1,29 @@
 .service {
-  max-width: 1440px;
+  width: 1440px;
+  box-sizing: border-box;
   margin: 0 auto 270px auto;
+}
+
+@media screen and (max-width: 1480px) {
+  .service {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+ 
+
+@media screen and (max-width: 1200px) {
+  .service {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .service {
+    margin-bottom: 30px;
+  }  
 }

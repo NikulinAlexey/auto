@@ -8,3 +8,9 @@
 .leasing__paragraph:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .leasing__paragraph {
+    margin: 0 10px 20px 10px;
+  }  
+}

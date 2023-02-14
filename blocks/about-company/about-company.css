@@ -2,3 +2,26 @@
   max-width: 1440px;
   margin: 0 auto 50px auto;
 }
+
+@media screen and (max-width: 1480px) {
+  .about-company {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+
+@media screen and (max-width: 1200px) {
+  .about-company {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .about-company {
+    margin-bottom: 30px;
+  }  
+}

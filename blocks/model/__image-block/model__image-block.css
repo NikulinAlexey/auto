@@ -2,3 +2,10 @@
   position: relative;
   height: 50%;
 }
+
+@media screen and (max-width: 1024px) {
+  .model__image-block {
+    min-height: 80px;
+    height: 80px;
+  }  
+}

@@ -7,3 +7,20 @@
   box-sizing: border-box;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1480px) {
+  .model {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+
+@media screen and (max-width: 1200px) {
+  .model {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}

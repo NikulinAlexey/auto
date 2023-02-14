@@ -23,3 +23,10 @@
   opacity: .8;
   cursor: pointer;
 }
+
+@media screen and (max-width: 745px) {
+  .about-car__credit {
+    width: 100%;
+    margin-bottom: 20px;
+  }  
+}

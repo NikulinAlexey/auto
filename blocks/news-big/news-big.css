@@ -7,3 +7,26 @@
   border-radius: 30px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1480px) {
+  .news-big {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }  
+}
+
+@media screen and (max-width: 1200px) {
+  .news-big {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .news-big {
+    padding: 0;
+    margin-bottom: 30px;
+  }  
+}

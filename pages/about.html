@@ -43,22 +43,27 @@
 
     <header class="header">
       <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
+      <div class="header__burger-block">
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
       <ul class="header__link-list">
         <li>
           <a href="#" class="header__link header__link_type_auto">Автомобили</a>
         </li>
         <li>
-          <a href="./services.html" class="header__link header__link_type_service">Сервис</a>
+          <a href="../pages/services.html" class="header__link header__link_type_service">Сервис</a>
         </li>
         <li>
-          <a href="./contacts.html" class="header__link header__link_type_contacts">Контакты</a>
+          <a href="../pages/contacts.html" class="header__link header__link_type_contacts">Контакты</a>
         </li>
         <li>
-          <a href="./about.html" class="header__link header__link_type_about">О компании</a>
+          <a href="../pages/about.html" class="header__link header__link_type_about">О компании</a>
         </li>
       </ul>
       <div class="header__badges">
-        <button class="header__saved"></button>
+        <a href="./pages/saved.html" class="header__saved"></a>
         <button class="header__chat"></button>
         <div class="header__phone">+7(999)123-45-67</div>
       </div>
@@ -74,10 +79,9 @@
       <section class="about-company">
         <h1 class="about-company__title">О компании</h1>
         <div class="about-company__subtitles">
-          <h3 class="about-company__button about-company__general about-company__button_type_avtive">Общая информация
-          </h3>
-          <h3 class="about-company__button about-company__history">История компании</h3>
-          <h3 class="about-company__button about-company__indicators">Показатели деятельности</h3>
+          <div class="about-company__button about-company__general about-company__button_type_avtive">Общая информация <img src="../images/down-arrow.svg" alt="" class="about-company__icon"></div>
+          <div class="about-company__button about-company__history">История компании <img src="../images/down-arrow.svg" alt="" class="about-company__icon"></div>
+          <div class="about-company__button about-company__indicators">Показатели деятельности <img src="../images/down-arrow.svg" alt="" class="about-company__icon"></div>
         </div>
         <div class="about-company__general-text about-company__block-active">
           <p class="about-company__paragraph">Группа компаний – один из самых крупных игроков на российском авторынке.
@@ -181,15 +185,16 @@
         <a href="#" class="footer__link">Спецтехника</a>
       </div>
       <div class="footer__info">
-        <a href="#" class="footer__link">О компании</a>
+        <a href="./about.html" class="footer__link">О компании</a>
         <a href="#" class="footer__link">Спецпредложения</a>
         <a href="./services.html" class="footer__link">Сервис</a>
         <a href="#" class="footer__link">Новости</a>
-        <a href="#" class="footer__link">Контакты</a>
+        <a href="./contacts.html" class="footer__link">Контакты</a>
       </div>
     </footer>
   </div>
   <script src="../js/about.js"></script>
   <script src="../js/index.js"></script>
+  <script src="../js/burger-header.js"></script>
 </body>
 </html>

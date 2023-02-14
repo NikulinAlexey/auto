@@ -4,4 +4,12 @@
   line-height: 140%;
   opacity: 0.4;
   text-decoration: line-through;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1085px) {
+  .card__old-price {
+    font-size: 14px;
+    line-height: 120%;
+  }  
 }

@@ -4,7 +4,15 @@
   display: grid;
   gap: 10px;
   grid-auto-flow: column;
-  grid-auto-columns: min-content;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 200px));
+  grid-template-columns: repeat(auto-fit, minmax(150px ,auto));
+  grid-template-rows: 130px;
   margin: 0 0 40px 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-car__small-imgs {
+    margin: 0;
+  }  
 }

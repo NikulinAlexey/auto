@@ -13,3 +13,10 @@
   opacity: .8;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .navigation__main-link {
+    font-weight: 400;
+    font-size: 12px; 
+  }
+}

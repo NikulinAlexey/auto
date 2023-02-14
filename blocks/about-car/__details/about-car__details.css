@@ -1,4 +1,5 @@
 .about-car__details {
+  display: flex;
   padding-bottom: 14px;
   opacity: 1;
   margin: 0 auto 0 0;
@@ -8,4 +9,14 @@
 .about-car__details:hover {
   opacity: .8;
   cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .about-car__details {
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    height: 43px;
+    align-items: center;
+  }  
 }

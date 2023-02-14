@@ -4,3 +4,10 @@
   line-height: 140%;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .navigation__service {
+    font-weight: 400;
+    font-size: 12px; 
+  }
+}

@@ -194,6 +194,7 @@
 @import url(../blocks/about-company/__general-text/about-company__general-text.css);
 @import url(../blocks/about-company/__block-active/about-company__block-active.css);
 @import url(../blocks/about-company/__block-closed/about-company__block-closed.css);
+@import url(../blocks/about-company/__icon/about-company__icon.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__title/contacts__title.css);

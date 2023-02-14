@@ -1,7 +1,33 @@
 .model__form {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(min-content , max-content);
   gap: 82px;
   margin: 20px 83px 50px 83px;
+}
+
+@media screen and (max-width: 1480px) {
+  .model__form {
+    gap: 40px;
+    margin: 20px 40px 50px 40px;
+  }  
+} 
+
+@media screen and (max-width: 1400px) {
+  .model__form {
+    gap: 20px;
+  }  
+} 
+
+@media screen and (max-width: 1000px) {
+  .model__form {
+    grid-template-columns: 1fr;
+  }  
+} 
+
+@media screen and (max-width: 500px) {
+  .model__form {
+    grid-template-rows: min-content;
+    margin: 20px 10px 30px 10px ;
+  }  
 }

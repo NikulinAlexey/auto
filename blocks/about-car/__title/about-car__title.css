@@ -4,3 +4,9 @@
   line-height: 140%;
   margin: 17px 0 20px 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .about-car__title {
+    margin-top: 25px;
+  }  
+}

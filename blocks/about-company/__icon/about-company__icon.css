@@ -1,0 +1,12 @@
+.about-company__icon {
+  display: none;
+  margin: 0 0 0 auto;
+  width: 15px;
+  height: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-company__icon {
+    display: block;
+  }  
+}

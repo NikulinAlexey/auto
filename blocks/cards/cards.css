@@ -1,6 +1,19 @@
 .cards {
   display: grid;
   gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(166px, 330px));
+  grid-template-columns: repeat(auto-fit, minmax(330px, auto));
   grid-template-rows: repeat(auto-fit, minmax(min-content , max-content));
+}
+
+@media screen and (max-width: 1140px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  }  
+}
+
+@media screen and (max-width: 1085px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 20px;
+  }  
 }

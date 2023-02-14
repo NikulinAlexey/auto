@@ -1,3 +1,4 @@
 .about-car__right {
-  
+  display: flex;
+  flex-direction: column;
 }

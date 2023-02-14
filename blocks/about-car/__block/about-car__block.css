@@ -4,3 +4,10 @@
   grid-template-rows: minmax(min-content, max-content);
   gap: 40px;
 }
+
+@media screen and (max-width: 1380px) {
+  .about-car__block {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }  
+}

@@ -2,10 +2,33 @@
   background-color: #283035;
   box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.04);
   border-radius: 20px;
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto 50px auto;
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
   max-height: 400px;
+}
+
+@media screen and (max-width: 1480px) {
+  .model-banner {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+
+@media screen and (max-width: 1200px) {
+  .model-banner {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .model-banner {
+    max-height: 240px ;
+  }  
 }

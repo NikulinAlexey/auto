@@ -8,3 +8,13 @@
 .news-big__paragraph:last-of-type {
   margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .news-big__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 20px;
+  }  
+}

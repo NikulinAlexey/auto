@@ -10,3 +10,15 @@
   gap: 60px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+  .contacts__block {
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    box-shadow: none;
+    gap: 27px;
+    margin-bottom: 30px;
+    padding: 0;
+  }  
+}
+

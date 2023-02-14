@@ -90,26 +90,30 @@
 
     <header class="header">
       <img src="../images/main-logo.svg" alt="Автомобиль" class="header__logo">
+      <div class="header__burger-block">
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
       <ul class="header__link-list">
         <li>
           <a href="#" class="header__link header__link_type_auto">Автомобили</a>
         </li>
         <li>
-          <a href="./services.html" class="header__link header__link_type_service">Сервис</a>
+          <a href="../pages/services.html" class="header__link header__link_type_service">Сервис</a>
         </li>
         <li>
-          <a href="./contacts.html" class="header__link header__link_type_contacts">Контакты</a>
+          <a href="../pages/contacts.html" class="header__link header__link_type_contacts">Контакты</a>
         </li>
         <li>
-          <a href="./about.html" class="header__link header__link_type_about">О компании</a>
+          <a href="../pages/about.html" class="header__link header__link_type_about">О компании</a>
         </li>
       </ul>
       <div class="header__badges">
-        <button class="header__saved"></button>
+        <a href="./pages/saved.html" class="header__saved"></a>
         <button class="header__chat"></button>
         <div class="header__phone">+7(999)123-45-67</div>
       </div>
-
     </header>
 
     <main class="content">
@@ -620,20 +624,30 @@
 
       <section class="feedback-form">
         <div class="feedback-form__info">
-          <h3 class="feedback-form__subtitle">Есть вопросы?</h3>
-          <h2 class="feedback-form__title">Мы свяжемся с вами</h2>
-          <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим вниманием
-            относимся к каждому отзыву
-            или мнению, будь то конструктивные замечания или слова благодарности.</p>
-          <input type="checkbox" id="checkbox" class="feedback-form__checkbox">
-          <label for="checkbox" class="feedback-form__label">Я согласен с условиями <a href="#"
-              class="feedback-form__link">обработки персональных данных *</a></label>
+          <div class="feedback-form__first">
+            <h3 class="feedback-form__subtitle">Есть вопросы?</h3>
+            <h2 class="feedback-form__title">Мы свяжемся с вами</h2>
+            <p class="feedback-form__paragraph">Мы приветствуем стремление клиентов обращаться к нам и с большим
+              вниманием
+              относимся к каждому отзыву
+              или мнению, будь то конструктивные замечания или слова благодарности.
+            </p>
+          </div>
+          <form action="submit" id="feedback" class="feedback-form__second">
+            <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваше имя*">
+            <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваш номер телефона*">
+          </form>
         </div>
-        <form action="submit" class="feedback-form__form">
-          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваше имя*">
-          <input type="text" class="feedback-form__input" name="" id="" placeholder="Ваш номер телефона*">
-          <button class="feedback-form__button">Отправить</button>
-        </form>
+        <div action="submit" class="feedback-form__form">
+          <label for="checkbox" class="feedback-form__checkbox-label">
+            <input type="checkbox" class="feedback-form__checkbox feedback-form__checkbox-extra" value="" id="checkbox"
+              name="checkbox">
+            <span class="feedback-form__pseudo-checkbox"></span>
+            <span class="feedback-form__pseudo-label">Я согласен с условиями <a href="#"
+                class="feedback-form__link">обработки персональных данных *</a></span>
+          </label>
+          <button class="feedback-form__button" form="feedback">Отправить</button>
+        </div>
       </section>
 
     </main>
@@ -678,5 +692,6 @@
   </div>
   <script src="../js/popup.js"></script>
   <script src="../js/index.js"></script>
+  <script src="../js/burger-header.js"></script>
 </body>
 </html>

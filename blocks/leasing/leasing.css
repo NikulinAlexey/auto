@@ -6,3 +6,29 @@
   border-radius: 20px;
   padding: 60px 0;
 }
+
+@media screen and (max-width: 1480px) {
+  .leasing {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+ 
+
+@media screen and (max-width: 1200px) {
+  .leasing {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .leasing {
+    padding: 20px 0 30px 0;
+    margin-top: 0;
+    margin-bottom: 30px;  
+  }  
+}

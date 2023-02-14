@@ -16,3 +16,18 @@
   cursor: pointer;
   opacity: .8;
 }
+
+@media screen and (max-width: 768px) {
+  .about-company__button {
+    border-bottom: 1px solid #4D4D4D;
+    height: 52px;
+    padding: 15px 10px;
+    margin: 0;
+  }
+  .about-company__button:nth-of-type(2n) {
+    border-bottom: 1px solid #4D4D4D;
+    border-top: 1px solid #4D4D4D;
+  }
+
+  
+}

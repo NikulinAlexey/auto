@@ -1,9 +1,34 @@
 .calculation {
   box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.04);
   border-radius: 20px;
-  max-width: 1440px;
+  width: 1440px;
   margin: 50px auto;
   background-color: #283035;
   padding: 50px 83px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1480px) {
+  .calculation {
+    width: 92%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 20px;
+  }  
+} 
+
+@media screen and (max-width: 1200px) {
+  .calculation {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .calculation {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }  
 }

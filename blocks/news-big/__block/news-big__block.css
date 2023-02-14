@@ -1,3 +1,9 @@
 .news-big__block {
   
 }
+
+@media screen and (max-width: 1024px) {
+  .news-big__block {
+    margin: 10px 10px 30px 10px;
+  }  
+}
