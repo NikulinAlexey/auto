@@ -1,0 +1,20 @@
+.footer__line {
+  background-image: url(../../../images/footer-line.png);
+  position: absolute;
+  top: 0;
+  left: 82px;
+  width: 2px;
+  height: 100%;
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__line {
+    left: 35px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__line {
+    display: none;
+  }  
+}

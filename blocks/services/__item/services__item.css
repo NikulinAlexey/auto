@@ -6,3 +6,11 @@
   flex-direction: column;
   height: 100%;
 }
+
+@media screen and (max-width: 950px) {
+    .services__item {
+      background-color: transparent;
+      box-shadow: none;
+      border-radius: 0;
+    }
+}

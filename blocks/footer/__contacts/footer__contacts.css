@@ -1,3 +1,31 @@
 .footer__contacts {
+  display: flex;
+  flex-direction: column;
   margin: 60px auto auto 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__contacts {
+    margin-right: 20px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__contacts {
+    margin: 20px auto;
+  }  
+}
+
+@media screen and (max-width: 625px) {
+  .footer__contacts {
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 92px;
+  }
+  .footer__contacts:last-child {
+    margin-bottom: 0;
+  }
 }

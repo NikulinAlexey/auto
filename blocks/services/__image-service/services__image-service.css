@@ -1,5 +1,21 @@
 .services__image-service {
-  margin: auto auto 27px auto;
   width: 288px;
-  height: 189px;
+}
+
+@media screen and (max-width: 1170px) {
+  .services__image-service {
+    transform: scale(.7);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services__image-service {
+    transform: scale(.5);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .services__image-service {
+    transform: scale(.3);
+  }
 }

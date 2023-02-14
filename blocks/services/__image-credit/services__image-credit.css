@@ -1,5 +1,23 @@
 .services__image-credit {
   width: 288px;
   height: 189px;
-  margin: auto auto 27px auto;
 }
+
+@media screen and (max-width: 1170px) {
+  .services__image-credit {
+    transform: scale(.7);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services__image-credit {
+    transform: scale(.5);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .services__image-credit {
+    transform: scale(.3);
+  }
+}
+

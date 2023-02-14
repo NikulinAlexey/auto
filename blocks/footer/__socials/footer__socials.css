@@ -1,3 +1,12 @@
 .footer__socials {
   margin: 30px auto 0 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__socials {
+    position: absolute;
+    bottom: 55px;
+    right: 10px;
+    margin: 0;
+  }
+}

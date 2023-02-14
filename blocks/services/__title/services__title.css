@@ -6,3 +6,17 @@
   padding: 0;
   margin: 0 auto 30px auto;
 }
+
+@media screen and (max-width: 950px) {
+  .services__title {
+    margin: 0 auto 18px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services__title {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+  }
+}

@@ -4,3 +4,18 @@
   font-size: 30px;
   line-height: 140%;
 }
+
+@media screen and (max-width: 950px) {
+  .services__subtitle {
+    margin: 18px auto 8px auto;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .services__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}

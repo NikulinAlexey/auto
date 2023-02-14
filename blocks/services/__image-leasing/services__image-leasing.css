@@ -1,5 +1,16 @@
 .services__image-leasing {
   width: 128px;
   height: 128px;
-  margin: auto auto 48px auto;
+}
+
+@media screen and (max-width: 1170px) {
+  .services__image-leasing {
+    transform: scale(.7);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .services__image-leasing {
+    transform: scale(.4);
+  }
 }

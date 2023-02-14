@@ -1,3 +1,21 @@
 .footer__logo {
   margin: 68px 94px 196px 80px;
 }
+
+@media screen and (max-width: 1200px) {
+  .footer__logo {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 118px;
+    height: 56px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__logo {
+    position: absolute;
+    bottom: 42px;
+    left: 20px;
+    margin: 0;
+  }
+}

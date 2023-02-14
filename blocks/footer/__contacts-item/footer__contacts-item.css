@@ -2,3 +2,11 @@
   margin: 6px auto 14px 0;
   padding: 0;
 }
+
+
+
+@media screen and (max-width: 500px) {
+  .footer__contacts-item {
+    margin: 0 auto 20px 0;
+  }
+}

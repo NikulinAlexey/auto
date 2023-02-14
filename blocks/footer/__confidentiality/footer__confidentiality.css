@@ -4,3 +4,12 @@
   padding: 0;
   margin: 5px 0;
 }
+
+@media screen and (max-width: 625px) {
+  .footer__confidentiality {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    margin: 0;
+  }  
+}

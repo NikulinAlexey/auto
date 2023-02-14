@@ -1,7 +1,19 @@
 .footer__auto {
+  position: relative;
   display: flex;
   flex-direction: column;
-  border-left: 2px solid #4D4D4D;
-  padding-left: 15px;
   margin: 60px auto auto 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__auto {
+    margin-right: 20px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__auto {
+    width: 100%;
+    margin: 0;
+  }
 }
